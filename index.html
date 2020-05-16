@@ -32,7 +32,7 @@
         var map = new mapboxgl.Map({
             container: 'map', // container id
             // style: 'mapbox://styles/joegermuska/cka9sxxuk1td11in6nbg3jvon', // stylesheet location
-            style: styles.basic,
+            style: styles.frank,
             center: [-87.72294673185576, 42.05386137897145], // starting position [lng, lat]
             zoom: 14 // starting zoom
         });
@@ -50,10 +50,6 @@
                 type: 'geojson',
                 data: './paths.geojson' // url
             })
-            map.addSource('urban-areas', {
-                'type': 'geojson',
-                'data': 'https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_50m_urban_areas.geojson'
-            });
             map.addLayer({
                     'id': 'routes-fill',
                     'type': 'line',
@@ -78,6 +74,9 @@
                 },
                 firstSymbolId
             );
+            map.addControl(new mapboxgl.GeolocateControl({
+                trackUserLocation: true
+            }))
         })
 
         function styler(feature) {
