@@ -58,8 +58,8 @@
                     'paint': {
                         'line-color': [
                             'match', ['get', 'type'],
-                            'Cycling', '#c7b814',
-                            '#9567eb'
+                            'Cycling', '#bd4220',
+                            '#5520b0'
                         ],
                         'line-width': 2,
                         'line-opacity': .5
@@ -74,45 +74,38 @@
                 },
                 firstSymbolId
             );
+
+            map.addSource('saved-places', {
+                type: 'geojson',
+                data: './lfl.geojson'
+            })
+
+            // layer style reference https://docs.mapbox.com/mapbox-gl-js/style-spec/layers/    
+            // expressions: https://docs.mapbox.com/mapbox-gl-js/style-spec/expressions/
+            map.addLayer({
+                id: 'saved-places-show',
+                type: 'symbol',
+                source: 'saved-places',
+                layout: {
+                    // get the icon name from the source's "icon" property
+                    // concatenate the name to get an icon from the style's sprite sheet
+                    'icon-image': ['get', 'icon'],
+                    // 'icon-color': '#5520b0', seems to break everything
+                    'text-field': ['get', 'name'],
+                    'text-font': ['DIN Pro Medium', 'Arial Unicode MS Bold'],
+                    // 'text-color': '#7e6958', seems to break also?
+                    'text-size': 11,
+                    'text-offset': [0, 0.6],
+                    'text-anchor': 'top'
+                },
+
+                paint: {}
+            })
+
             map.addControl(new mapboxgl.GeolocateControl({
                 trackUserLocation: true
             }))
         })
-
-        function styler(feature) {
-            switch (feature.properties.type) {
-                case "Cycling":
-                    return {
-                        "color": "red",
-                        "opacity": 0.5,
-                        "weight": 2
-                    };
-                default:
-                    return {
-                        "color": "blue",
-                        "opacity": 0.5,
-                        "weight": 2
-                    };
-            }
-        }
-
-        function onEachFeature(feature, layer) {
-            layer.on({
-                click: function(e) {
-                    map.fitBounds(e.target.getBounds());
-                }
-            });
-        };
-
-        // var geojson_layer = L.geoJson(null, {
-        //         onEachFeature: onEachFeature,
-
-        //         style: styler,
-        // });
-        // function geojson_layer_add (data) {
-        //     geojson_layer.addData(data)
-        //         .addTo(map);
-        // }
     </script>
 
 </body>
