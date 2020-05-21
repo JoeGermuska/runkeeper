@@ -24,36 +24,16 @@ def parse_gpx(p):
     
     return d
 
-def style_function(feature):
-    return {
-        'weight': 2,
-        'opacity': .5,
-        'color': 'red' if feature['properties']['type'] == 'Cycling' else 'blue'
-    }
-
 def gpx_to_geojson(path, output_file):
     routes = [parse_gpx(walk) for walk in path.glob('*.gpx')]
     df = gpd.GeoDataFrame(routes)
     df.sort_values('time',inplace=True)
 
     home = [42.045465,-87.7161625]
-    # m = folium.Map(
-    #     location=[42.03,-87.7161625],#home,
-    #     tiles='OpenStreetMap',
-    #     zoom_start=15,
-    #     height=2500
-    # )
 
-    j = json.loads(df['geometry'].to_json())
-    for i,feature in enumerate(j['features']):
-        row = df.loc[i].to_dict()
-        feature['properties']['name'] = row['name']
-        feature['properties']['type'] = row['name'].split(' ')[0]
-        feature['properties']['date'] = row['time'].strftime("%Y-%m-%d")
-
-    j['features'].sort(key=lambda x: x['properties']['date'])
+    df['type'] = df['name'].apply(lambda x: x.split(' ')[0])
     with open(output_file,"w") as f:
-        json.dump(j,f)
+        f.write(df.sort_values('time').drop('time',axis=1).to_json()) # time is not JSON serializable
 
 def fixup_markers(fn):
 

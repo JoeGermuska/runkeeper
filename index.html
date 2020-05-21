@@ -51,7 +51,7 @@
                 data: './paths.geojson' // url
             })
             map.addLayer({
-                    'id': 'routes-fill',
+                    'id': 'routes-layer',
                     'type': 'line',
                     'source': 'routes',
                     'layout': {},
@@ -74,6 +74,24 @@
                 },
                 firstSymbolId
             );
+
+            // from https://docs.mapbox.com/mapbox-gl-js/example/polygon-popup-on-click/
+            map.on('click', 'routes-layer', function(e) {
+                new mapboxgl.Popup()
+                    .setLngLat(e.lngLat)
+                    .setHTML(e.features[0].properties.name)
+                    .addTo(map);
+            });
+
+            // Change the cursor to a pointer when the mouse is over the states layer.
+            map.on('mouseenter', 'routes-layer', function() {
+                map.getCanvas().style.cursor = 'pointer';
+            });
+
+            // Change it back to a pointer when it leaves.
+            map.on('mouseleave', 'routes-layer', function() {
+                map.getCanvas().style.cursor = '';
+            });
 
             map.addSource('saved-places', {
                 type: 'geojson',
