@@ -1,290 +1,313 @@
 {
-    "features": [{
-            "geometry": {
-                "coordinates": [-87.71232719999999,
-                    42.067817999999995
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "name": "Little Free Library",
-                "icon": "library-15"
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [-87.70739019999999,
-                    42.050148799999995
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "name": "Little Free Library",
-                "icon": "library-15"
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [-87.7004121,
-                    42.061397899999996
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "name": "Little Free Library",
-                "icon": "library-15"
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [-87.7157423,
-                    42.0459191
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "name": "Avondale Book Box",
-                "icon": "library-15"
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [-87.7244541,
-                    42.0416235
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "name": "Little Free Library",
-                "icon": "library-15"
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [-87.7005094,
-                    42.0633021
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "name": "Ubuntu Mailbox Little Free Library",
-                "icon": "library-15"
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [-87.72187989999999,
-                    42.0435928
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "name": "Little Free Library",
-                "icon": "library-15"
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [-87.710567,
-                    42.063113
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "name": "Little Free Library? (wrapped when found",
-                "icon": "library-15"
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [-87.71959559999999,
-                    42.0545877
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "name": "Little Free Pantry ",
-                "icon": "grocery-15"
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [-87.7124418,
-                    42.0631914
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "name": "Little Free Library",
-                "icon": "library-15"
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [-87.69401769999999,
-                    42.055582699999995
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "name": "Little Free Library",
-                "icon": "library-15"
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [-87.724487,
-                    42.062211399999995
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "name": "Capt. Humayun Khan Little Free Library",
-                "icon": "library-15"
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [-87.7125018,
-                    42.0621815
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "name": "Little Free Library",
-                "icon": "library-15"
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [-87.7179615,
-                    42.0670334
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "name": "Little Free Library",
-                "icon": "library-15"
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [-87.7055439,
-                    42.0586725
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "name": "Little Free Library",
-                "icon": "library-15"
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [-87.7159193,
-                    42.0573185
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "name": "Little Free Library",
-                "icon": "library-15"
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [-87.7219281,
-                    42.0617063
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "name": "Little Free Library",
-                "icon": "library-15"
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [-87.7135107,
-                    42.0630667
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "name": "Little Free Library",
-                "icon": "library-15"
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [-87.722821,
-                    42.051116799999996
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "name": "Little Free Library",
-                "icon": "library-15"
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [-87.70752999999999,
-                    42.058248999999996
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "name": "Little Free Library",
-                "icon": "library-15"
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [-87.7046594,
-                    42.056858
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "name": "Little Free Library ",
-                "icon": "library-15"
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [-87.7245497,
-                    42.0459136
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "name": "Little Little Free Library",
-                "icon": "library-15"
-            },
-            "type": "Feature"
-        }
-    ],
-    "type": "FeatureCollection"
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          -87.71232719999999,
+          42.067817999999995
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.70739019999999,
+          42.050148799999995
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.7004121,
+          42.061397899999996
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.7157423,
+          42.0459191
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Avondale Book Box",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.7244541,
+          42.0416235
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.7005094,
+          42.0633021
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Ubuntu Mailbox Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.72187989999999,
+          42.0435928
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.710567,
+          42.063113
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Little Free Library? (wrapped when found",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.71959559999999,
+          42.0545877
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Little Free Pantry ",
+        "icon": "grocery-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.7124418,
+          42.0631914
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.69401769999999,
+          42.055582699999995
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.724487,
+          42.062211399999995
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Capt. Humayun Khan Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.7125018,
+          42.0621815
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.7179615,
+          42.0670334
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.7055439,
+          42.0586725
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.7159193,
+          42.0573185
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.7219281,
+          42.0617063
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.7135107,
+          42.0630667
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.722821,
+          42.051116799999996
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.70752999999999,
+          42.058248999999996
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.7046594,
+          42.056858
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Little Free Library ",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.7245497,
+          42.0459136
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Little Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
 }
