@@ -31,6 +31,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.7268788,
+          42.035281999999995
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Little Free Library #87291",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.7004121,
           42.061397899999996
         ],
@@ -129,6 +143,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.7002723,
+          42.074022299999996
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.7124418,
           42.0631914
         ],
@@ -185,6 +213,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.7197757,
+          42.045469399999995
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.7179615,
           42.0670334
         ],
@@ -215,6 +257,20 @@
         "coordinates": [
           -87.7159193,
           42.0573185
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.713562,
+          42.059136699999996
         ],
         "type": "Point"
       },
