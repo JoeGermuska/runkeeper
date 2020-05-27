@@ -31,10 +31,10 @@
         mapboxgl.accessToken = 'pk.eyJ1Ijoiam9lZ2VybXVza2EiLCJhIjoiY2thOXNwNHpwMGp2NDJybnplZHE2NWsxZiJ9.R08AIHjCQZKow3hRRao5MA';
         var map = new mapboxgl.Map({
             container: 'map', // container id
-            // style: 'mapbox://styles/joegermuska/cka9sxxuk1td11in6nbg3jvon', // stylesheet location
-            style: styles.frank,
+            style: 'mapbox://styles/joegermuska/cka9tuolk0n921jse7dggjtll', // stylesheet location
+            // style: styles.frank,
             center: [-87.72294673185576, 42.05386137897145], // starting position [lng, lat]
-            zoom: 14 // starting zoom
+            zoom: 13 // starting zoom
         });
         map.on('style.load', () => {
             var layers = map.getStyle().layers;
