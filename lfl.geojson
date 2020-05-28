@@ -45,6 +45,21 @@
     {
       "geometry": {
         "coordinates": [
+          -87.6948204,
+          42.0458721
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "1555 Florence Ave, Evanston, IL 60201, USA",
+        "name": "Ranch-style Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.7004121,
           42.061397899999996
         ],
@@ -304,6 +319,20 @@
       },
       "properties": {
         "name": "Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.7087243,
+          42.0427448
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "King Arts Little Free Library",
         "icon": "library-15"
       },
       "type": "Feature"
