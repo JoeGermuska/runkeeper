@@ -355,6 +355,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.7133903,
+          42.069001899999996
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Snoopy and Woodstock LFL #30820",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.722821,
           42.051116799999996
         ],
