@@ -83,7 +83,7 @@
                     .addTo(map);
             });
 
-            // Change the cursor to a pointer when the mouse is over the states layer.
+            // Change the cursor to a pointer when the mouse is over the routes layer.
             map.on('mouseenter', 'routes-layer', function() {
                 map.getCanvas().style.cursor = 'pointer';
             });
@@ -106,7 +106,6 @@
                 source: 'saved-places',
                 layout: {
                     // get the icon name from the source's "icon" property
-                    // concatenate the name to get an icon from the style's sprite sheet
                     'icon-image': ['get', 'icon'],
                     // 'icon-color': '#5520b0', seems to break everything
                     'text-field': ['get', 'name'],
