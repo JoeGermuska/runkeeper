@@ -136,7 +136,7 @@
         "type": "Point"
       },
       "properties": {
-        "name": "Little Free Library? (wrapped when found",
+        "name": "Little Free Library",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -460,6 +460,48 @@
       },
       "properties": {
         "name": "Little Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.690325,
+          42.043351
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Little Free Library #61277",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.69322009999999,
+          42.0463854
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Baba\u2019s Little Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6931544,
+          42.0457214
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Little Free Library",
         "icon": "library-15"
       },
       "type": "Feature"
