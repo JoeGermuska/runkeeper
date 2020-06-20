@@ -397,6 +397,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.7157155,
+          42.050472
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Our Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.7133903,
           42.069001899999996
         ],
