@@ -453,6 +453,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.7021978,
+          42.056058199999995
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Rotary Int\u2019l Litttle Free Library #73000",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.7046594,
           42.056858
         ],
