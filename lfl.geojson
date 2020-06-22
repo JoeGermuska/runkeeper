@@ -271,8 +271,36 @@
     {
       "geometry": {
         "coordinates": [
+          -87.7031587,
+          42.0621751
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "St. Matthews Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.7179615,
           42.0670334
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.7268356,
+          42.0387097
         ],
         "type": "Point"
       },
@@ -315,6 +343,20 @@
         "coordinates": [
           -87.713562,
           42.059136699999996
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6767909,
+          42.029803099999995
         ],
         "type": "Point"
       },
@@ -403,7 +445,7 @@
         "type": "Point"
       },
       "properties": {
-        "name": "Our Little Free Library",
+        "name": "Our Little Free Library #91724",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -432,6 +474,20 @@
       },
       "properties": {
         "name": "Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6785981,
+          42.0395566
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Book Box Little Free Library (tall gray)",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -502,6 +558,34 @@
       },
       "properties": {
         "name": "Little Free Library #61277",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.68526469999999,
+          42.0401218
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6868002,
+          42.059485699999996
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Tin Roof Little Free Library #95330 ",
         "icon": "library-15"
       },
       "type": "Feature"
