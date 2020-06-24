@@ -60,6 +60,34 @@
     {
       "geometry": {
         "coordinates": [
+          -87.68497669999999,
+          42.0555513
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6937157,
+          42.0393312
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Little Free Library #67142",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.7004121,
           42.061397899999996
         ],
@@ -355,6 +383,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.68810549999999,
+          42.0665088
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Little Free Library #75529",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.6767909,
           42.029803099999995
         ],
@@ -523,6 +565,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.6989869,
+          42.054460999999996
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.7046594,
           42.056858
         ],
@@ -586,6 +642,20 @@
       },
       "properties": {
         "name": "Tin Roof Little Free Library #95330 ",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6806409,
+          42.054035299999995
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Little Free Library #100213",
         "icon": "library-15"
       },
       "type": "Feature"
