@@ -621,6 +621,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.68318699999999,
+          42.037444799999996
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Nichols School Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.68526469999999,
           42.0401218
         ],
@@ -628,6 +642,20 @@
       },
       "properties": {
         "name": "Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6900337,
+          42.0379398
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Little Free Library #61232",
         "icon": "library-15"
       },
       "type": "Feature"
