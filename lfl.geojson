@@ -102,6 +102,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.71632939999999,
+          42.070692099999995
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Rooftop Garden Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.7004121,
           42.061397899999996
         ],
