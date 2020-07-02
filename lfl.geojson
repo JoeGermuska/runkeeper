@@ -249,7 +249,7 @@
         "type": "Point"
       },
       "properties": {
-        "name": "Little Free Library",
+        "name": "St. Francis Xavier Little Free Library",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -698,6 +698,20 @@
       },
       "properties": {
         "name": "Little Free Library #61232",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.71138499999999,
+          42.077301299999995
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "G&A\u2019s Little Library",
         "icon": "library-15"
       },
       "type": "Feature"
