@@ -158,6 +158,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.6929814,
+          42.035095
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Purple Roof Little Free Library #66034",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.7005094,
           42.0633021
         ],
@@ -243,6 +257,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.6862913,
+          42.031198499999995
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.7002723,
           42.074022299999996
         ],
@@ -250,6 +278,20 @@
       },
       "properties": {
         "name": "St. Francis Xavier Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6843159,
+          42.0307781
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Matt Polston Memorial LFL #85729",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -474,6 +516,20 @@
       },
       "properties": {
         "name": "Little Free Library #55430",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.69728099999999,
+          42.0358097
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Blue Roof Little Free Library",
         "icon": "library-15"
       },
       "type": "Feature"
