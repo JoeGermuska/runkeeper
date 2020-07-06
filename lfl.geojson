@@ -172,6 +172,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.6895069,
+          42.042634899999996
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Unitarian Church of Evanston LFL #81909",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.7005094,
           42.0633021
         ],
