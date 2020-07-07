@@ -285,6 +285,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.6970144,
+          42.0275951
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Split Little Free Library #16836",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.7002723,
           42.074022299999996
         ],
@@ -489,6 +503,20 @@
       "properties": {
         "name": "Little Free Library #75529",
         "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.69261019999999,
+          42.0275014
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Grace Lutheran Little Free Pantry",
+        "icon": "grocery-15"
       },
       "type": "Feature"
     },
