@@ -17,6 +17,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.7366323,
+          42.0318178
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Newspaper box LFL #101809",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.70739019999999,
           42.050148799999995
         ],
@@ -460,6 +474,20 @@
       },
       "properties": {
         "name": "Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.73535729999999,
+          42.0304748
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Cabinet Little Free Library #32265",
         "icon": "library-15"
       },
       "type": "Feature"
