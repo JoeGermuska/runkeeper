@@ -59,6 +59,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.721102,
+          42.0800984
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "St Joseph School LFL #72127",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.7305736,
           42.074621099999995
         ],
@@ -207,6 +221,20 @@
       },
       "properties": {
         "name": "Ubuntu Mailbox Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.71950439999999,
+          42.0802796
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Handprint LFL #43811",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -656,6 +684,20 @@
       },
       "properties": {
         "name": "Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.7160323,
+          42.0831138
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Little Free Library #26341",
         "icon": "library-15"
       },
       "type": "Feature"
