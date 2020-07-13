@@ -73,6 +73,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.7390946,
+          42.027674
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Huge cabinet LFL #31484",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.7305736,
           42.074621099999995
         ],
@@ -691,6 +705,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.6885112,
+          42.0316682
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Alphabet Little Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.7160323,
           42.0831138
         ],
@@ -789,6 +817,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.6802127,
+          42.0293284
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Key-handle LFL #44604 est. 2016",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.7021978,
           42.056058199999995
         ],
@@ -852,6 +894,20 @@
       },
       "properties": {
         "name": "Little Free Library #61277",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6892099,
+          42.0277363
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Little Free Library #22804",
         "icon": "library-15"
       },
       "type": "Feature"
