@@ -200,6 +200,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.696474,
+          42.0247648
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Alex Okrent memorial LFL #15586",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.6929814,
           42.035095
         ],
