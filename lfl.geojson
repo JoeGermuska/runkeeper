@@ -971,6 +971,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.7035349,
+          42.0752141
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Flying Pig LFL #57252",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.71138499999999,
           42.077301299999995
         ],
@@ -1048,6 +1062,20 @@
       },
       "properties": {
         "name": "Yellow Little Free Library #58203",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6992879,
+          42.055696
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Weathered Little Free Library",
         "icon": "library-15"
       },
       "type": "Feature"
