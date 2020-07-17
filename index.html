@@ -119,9 +119,38 @@
                 paint: {}
             })
 
+            function checkHash() {
+                if (location.hash == '#evanston') {
+                    map.addLayer({
+                        id: 'evanston-show',
+                        type: 'fill',
+                        source: 'evanston',
+                        paint: {
+                            'fill-color': "#079",
+                            'fill-opacity': 0.25
+                        }
+                    })
+                } else {
+                    if (map.getLayer('evanston-show')) {
+                        map.removeLayer('evanston-show')
+                    }
+                }
+
+            }
+            map.addSource('evanston', {
+                type: 'geojson',
+                data: 'https://api.censusreporter.org/1.0/geo/tiger2018/16000US1724582?geom=true'
+            })
+
+
+
             map.addControl(new mapboxgl.GeolocateControl({
                 trackUserLocation: true
             }))
+
+            checkHash()
+
+            window.addEventListener('hashchange', checkHash)
         })
     </script>
 
