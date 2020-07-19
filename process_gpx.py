@@ -10,11 +10,17 @@ import folium
 from shapely.geometry import Polygon, LineString
 import json
 
+FIXES = {
+    # user errors: forgot to switch before starting
+    'Cycling 5/26/20 8:28 am': lambda name: name.replace('Cycling', 'Walking'),
+    'Walking 7/19/20 10:49 am': lambda name: name.replace('Walking', 'Cycling'),
+}
+
 def parse_gpx(p):
     doc = parse(p.open())
     name = doc.xpath('gpx:trk/gpx:name',namespaces={'gpx': 'http://www.topografix.com/GPX/1/1'})[0].text
-    if name == 'Cycling 5/26/20 8:28 am':
-        name = name.replace('Cycling', 'Walking') # user error forgot to switch before starting
+    if name in FIXES:
+        name = FIXES[name](name)
     time = doc.xpath('gpx:trk/gpx:time',namespaces={'gpx': 'http://www.topografix.com/GPX/1/1'})[0].text
     route = [(float(trkpt.attrib['lon']),float(trkpt.attrib['lat'])) 
              for trkpt in doc.xpath('//gpx:trkpt',namespaces={'gpx': 'http://www.topografix.com/GPX/1/1'})]

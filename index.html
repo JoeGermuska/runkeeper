@@ -28,6 +28,23 @@
             'frank': 'mapbox://styles/joegermuska/cka9tuolk0n921jse7dggjtll'
         }
 
+        let PLACES = {
+            'chicago': '16000US1714000',
+            'wilmette': '16000US1782075',
+            'winnetka': '16000US1782530',
+            'kenilworth': '16000US1739519',
+            'evanston': '16000US1724582',
+            'glenview': '16000US1729938',
+            'skokie': '16000US1770122',
+            'lincolnwood': '16000US1743744',
+            'northfield': '16000US1753663',
+            'morton-grove': '16000US1750647',
+        }
+
+
+        let PALETTE = //['#a6cee3', '#1f78b4', '#b2df8a', '#33a02c', '#fb9a99', '#e31a1c', '#fdbf6f', '#ff7f00', '#cab2d6', '#6a3d9a']
+            ['#8dd3c7', '#ffffb3', '#bebada', '#fb8072', '#80b1d3', '#fdb462', '#b3de69', '#fccde5', '#d9d9d9', '#bc80bd']
+
         mapboxgl.accessToken = 'pk.eyJ1Ijoiam9lZ2VybXVza2EiLCJhIjoiY2thOXNwNHpwMGp2NDJybnplZHE2NWsxZiJ9.R08AIHjCQZKow3hRRao5MA';
         var map = new mapboxgl.Map({
             container: 'map', // container id
@@ -62,7 +79,7 @@
                             '#5520b0'
                         ],
                         'line-width': 2,
-                        'line-opacity': .5
+                        'line-opacity': .7
                     }
                     // This is the important part of this example: the addLayer
                     // method takes 2 arguments: the layer as an object, and a string
@@ -74,24 +91,6 @@
                 },
                 firstSymbolId
             );
-
-            // from https://docs.mapbox.com/mapbox-gl-js/example/polygon-popup-on-click/
-            map.on('click', 'routes-layer', function(e) {
-                new mapboxgl.Popup()
-                    .setLngLat(e.lngLat)
-                    .setHTML(e.features[0].properties.name)
-                    .addTo(map);
-            });
-
-            // Change the cursor to a pointer when the mouse is over the routes layer.
-            map.on('mouseenter', 'routes-layer', function() {
-                map.getCanvas().style.cursor = 'pointer';
-            });
-
-            // Change it back to a pointer when it leaves.
-            map.on('mouseleave', 'routes-layer', function() {
-                map.getCanvas().style.cursor = '';
-            });
 
             map.addSource('saved-places', {
                 type: 'geojson',
@@ -120,14 +119,45 @@
             })
 
             function checkHash() {
-                if (location.hash == '#evanston') {
-                    map.addLayer({
-                        id: 'evanston-show',
-                        type: 'fill',
-                        source: 'evanston',
-                        paint: {
-                            'fill-color': "#079",
-                            'fill-opacity': 0.25
+                if (location.hash[0] == '#') {
+                    let active_places = location.hash.substr(1).split(',')
+                    if (active_places.indexOf('all') == 0) {
+                        active_places = Object.keys(PLACES)
+                    }
+                    Object.keys(PLACES).forEach((place, i) => {
+
+                        if (map.getLayer(`${place}-fill`)) {
+                            map.removeLayer(`${place}-fill`)
+                        }
+                        if (map.getLayer(`${place}-line`)) {
+                            map.removeLayer(`${place}-line`)
+                        }
+                        if (active_places.indexOf(place) != -1) {
+                            map.addLayer({
+                                id: `${place}-fill`,
+                                type: 'fill',
+                                source: 'places',
+                                filter: ["==", ["get", "geoid"],
+                                    PLACES[place]
+                                ],
+                                paint: { // todo.. change colors? add borders?
+                                    'fill-color': PALETTE[i],
+                                    'fill-opacity': 0.2
+                                }
+                            }, 'routes-layer')
+                            map.addLayer({
+                                id: `${place}-line`,
+                                type: 'line',
+                                source: 'places',
+                                filter: ["==", ["get", "geoid"],
+                                    PLACES[place]
+                                ],
+                                paint: { // todo.. change colors? add borders?
+                                    'line-color': '#333',
+                                    'line-opacity': 1,
+                                    'line-width': 1
+                                }
+                            }, 'routes-layer')
                         }
                     })
                 } else {
@@ -137,10 +167,29 @@
                 }
 
             }
-            map.addSource('evanston', {
+            let places_url = `https://api.censusreporter.org/1.0/geo/show/tiger2018?geo_ids=${Object.values(PLACES).join(',')}`
+            map.addSource('places', {
                 type: 'geojson',
-                data: 'https://api.censusreporter.org/1.0/geo/tiger2018/16000US1724582?geom=true'
+                data: places_url
             })
+
+            // from https://docs.mapbox.com/mapbox-gl-js/example/polygon-popup-on-click/
+            map.on('click', 'routes-layer', function(e) {
+                new mapboxgl.Popup()
+                    .setLngLat(e.lngLat)
+                    .setHTML(e.features[0].properties.name)
+                    .addTo(map);
+            });
+
+            // Change the cursor to a pointer when the mouse is over the routes layer.
+            map.on('mouseenter', 'routes-layer', function() {
+                map.getCanvas().style.cursor = 'pointer';
+            });
+
+            // Change it back to a pointer when it leaves.
+            map.on('mouseleave', 'routes-layer', function() {
+                map.getCanvas().style.cursor = '';
+            });
 
 
 
