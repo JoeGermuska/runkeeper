@@ -17,6 +17,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.7329919,
+          42.023635
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Too tall for kids LFL #28494",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.68696249999999,
           42.0226878
         ],
