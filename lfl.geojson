@@ -73,6 +73,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.6895294,
+          42.0627789
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Tin roof \u201cBook Barn\u201d",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.7268788,
           42.035281999999995
         ],
@@ -193,6 +207,20 @@
       },
       "properties": {
         "name": "Rooftop Garden Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.7023644,
+          42.0815616
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Rooftop campsite LFL #29426",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -915,6 +943,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.7003474,
+          42.0800862
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Replica of its house LFL #34876",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.7021978,
           42.056058199999995
         ],
@@ -1027,6 +1069,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.7010559,
+          42.085251
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "\u201cCurioser and curiouser!\u201d Alice LFL",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.68526469999999,
           42.0401218
         ],
@@ -1104,6 +1160,20 @@
       },
       "properties": {
         "name": "Little Free Library #100213",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.69403679999999,
+          42.0799011
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Little Free Library #41789",
         "icon": "library-15"
       },
       "type": "Feature"
