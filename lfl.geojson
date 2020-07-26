@@ -298,6 +298,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.72135779999999,
+          42.0761469
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Little Free Library #37511",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.6929814,
           42.035095
         ],
@@ -992,6 +1006,20 @@
       },
       "properties": {
         "name": "Little Free Library ",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.70362539999999,
+          42.0558695
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Edible Evanston Nature's Little Library",
         "icon": "library-15"
       },
       "type": "Feature"
