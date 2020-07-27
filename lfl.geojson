@@ -270,6 +270,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.7272684,
+          42.08594
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.696474,
           42.0247648
         ],
@@ -403,6 +417,20 @@
       },
       "properties": {
         "address": "1907 Colfax St, Evanston, IL 60201, USA",
+        "name": "Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.7312659,
+          42.044426699999995
+        ],
+        "type": "Point"
+      },
+      "properties": {
         "name": "Little Free Library",
         "icon": "library-15"
       },
