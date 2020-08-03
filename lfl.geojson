@@ -59,6 +59,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.7320196,
+          42.0158547
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Brick and Stone Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.70739019999999,
           42.050148799999995
         ],
@@ -733,6 +747,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.6866883,
+          42.056107
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Blue Guestbook LFL #104952",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.69261019999999,
           42.0275014
         ],
@@ -922,6 +950,20 @@
       },
       "properties": {
         "name": "Snoopy and Woodstock LFL #30820",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.7319569,
+          42.017644499999996
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Rustic Little Free Library #56734",
         "icon": "library-15"
       },
       "type": "Feature"
