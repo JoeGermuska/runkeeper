@@ -711,7 +711,7 @@
         "type": "Point"
       },
       "properties": {
-        "name": "Little Free Library",
+        "name": "LFL #22297 (w/overflow boxes)",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -1174,6 +1174,20 @@
       },
       "properties": {
         "name": "\u201cCurioser and curiouser!\u201d Alice LFL",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6924647,
+          42.0176148
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "\u201cEmbrace our diversity\u201d LFL",
         "icon": "library-15"
       },
       "type": "Feature"
