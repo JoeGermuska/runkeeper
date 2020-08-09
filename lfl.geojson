@@ -593,6 +593,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.7235204,
+          42.1021469
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "\u201cFree Little Library\u201d replica",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.7125018,
           42.0621815
         ],
@@ -1293,6 +1307,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.72648079999999,
+          42.1025785
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Replica LFL @LittleFreeDiverseLibraries",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.69403679999999,
           42.0799011
         ],
@@ -1370,6 +1398,20 @@
       },
       "properties": {
         "name": "Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.721848,
+          42.0964531
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Median Little Free Library #102138",
         "icon": "library-15"
       },
       "type": "Feature"
