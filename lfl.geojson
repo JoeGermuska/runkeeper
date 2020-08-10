@@ -817,6 +817,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.75898649999999,
+          42.0485584
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Jane Stenson School LFL #66496",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.7219281,
           42.0617063
         ],
@@ -1006,6 +1020,20 @@
       },
       "properties": {
         "name": "Book Box Little Free Library (tall gray)",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.7406942,
+          42.0721515
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "\u201cDog Biscuits Take a Treat\u201d mailbox",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -1328,6 +1356,20 @@
       },
       "properties": {
         "name": "Little Free Library #41789",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.74057119999999,
+          42.080310399999995
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Litte Free Library",
         "icon": "library-15"
       },
       "type": "Feature"
