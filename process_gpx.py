@@ -47,7 +47,8 @@ def fixup_markers(fn):
 
     import re
     ICONS = [
-        (re.compile('^.*pantry.*$',re.IGNORECASE), 'grocery-15')
+        (re.compile('^.*pantry.*$',re.IGNORECASE), 'grocery-15'),
+        (re.compile('^.*dog biscuits.*$',re.IGNORECASE), 'dog-park-15'), # or maybe veterinary-15
     ]
 
     DROP = [ # old stuff that is in saved places but shouldn't be on the map
