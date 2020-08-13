@@ -733,6 +733,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.75809339999999,
+          42.0279604
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Green Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.713562,
           42.059136699999996
         ],
@@ -1035,6 +1049,20 @@
       "properties": {
         "name": "\u201cDog Biscuits Take a Treat\u201d mailbox",
         "icon": "dog-park-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.72379029999999,
+          42.0626691
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "penthouse suite LFL",
+        "icon": "library-15"
       },
       "type": "Feature"
     },

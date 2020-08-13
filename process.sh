@@ -23,3 +23,5 @@ fi
 echo "processing"
 python ./process_gpx.py
 
+git add lfl.geojson paths.geojson
+
