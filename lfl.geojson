@@ -607,6 +607,34 @@
     {
       "geometry": {
         "coordinates": [
+          -87.687325,
+          41.9776887
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Little Free Library #103591",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6714168,
+          41.9760785
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Little Free Library #28503",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.7125018,
           42.0621815
         ],
