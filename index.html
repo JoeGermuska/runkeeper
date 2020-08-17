@@ -119,9 +119,15 @@
                 paint: {}
             })
 
-            function checkHash() {
-                if (location.hash[0] == '#') {
-                    let active_places = location.hash.substr(1).split(',')
+            function checkHash(force_all) {
+                let hash_str = ''
+                if (force_all == 'force') {
+                    hash_str = '#all'
+                } else {
+                    hash_str = location.hash
+                }
+                if (hash_str[0] == '#') {
+                    let active_places = hash_str.substr(1).split(',')
                     if (active_places.indexOf('all') == 0) {
                         active_places = Object.keys(PLACES)
                     }
@@ -198,7 +204,7 @@
                 trackUserLocation: true
             }))
 
-            checkHash()
+            checkHash('force')
 
             window.addEventListener('hashchange', checkHash)
         })
