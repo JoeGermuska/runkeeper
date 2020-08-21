@@ -326,6 +326,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.7540231,
+          42.0209974
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Salamander Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.72135779999999,
           42.0761469
         ],
@@ -838,6 +852,20 @@
       },
       "properties": {
         "name": "Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.73721669999999,
+          42.083656999999995
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "\u201cGreenwood\u201d Big Little Free Library",
         "icon": "library-15"
       },
       "type": "Feature"
