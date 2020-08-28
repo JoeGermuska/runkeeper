@@ -115,6 +115,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.6886956,
+          42.078070499999995
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "\u201cAmigos\u201d Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.721102,
           42.0800984
         ],
