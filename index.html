@@ -55,7 +55,8 @@
             ['#8dd3c7', '#ffffb3', '#bebada', '#fb8072', '#80b1d3', '#fdb462', '#b3de69', '#fccde5', '#d9d9d9', '#bc80bd']
 
         let commareas_geojson = null,
-            places_geojson = null;
+            places_geojson = null,
+            routes_geojson = null;
 
         function clearLayers(map, slug) {
             if (map.getLayer(`${slug}-fill`)) {
@@ -108,34 +109,36 @@
                     break;
                 }
             }
-            map.addSource('routes', {
-                type: 'geojson',
-                data: './paths.geojson' // url
-            })
-            map.addLayer({
-                    'id': 'routes-layer',
-                    'type': 'line',
-                    'source': 'routes',
-                    'layout': {},
-                    'paint': {
-                        'line-color': [
-                            'match', ['get', 'type'],
-                            'Cycling', 'red', // '#bd4220',
-                            '#5520b0'
-                        ],
-                        'line-width': 2,
-                        'line-opacity': .7
-                    }
-                    // This is the important part of this example: the addLayer
-                    // method takes 2 arguments: the layer as an object, and a string
-                    // representing another layer's name. if the other layer
-                    // exists in the stylesheet already, the new layer will be positioned
-                    // right before that layer in the stack, making it possible to put
-                    // 'overlays' anywhere in the layer stack.
-                    // Insert the layer beneath the first symbol layer.
-                },
-                firstSymbolId
-            );
+            fetch('./paths.geojson').then(r =>
+                r.text()).then(t => {
+                    routes_geojson = JSON.parse(t)
+
+                    map.addSource('routes', {
+                        type: 'geojson',
+                        data: routes_geojson // url
+                    })
+
+                    map.addLayer({
+                            'id': 'routes-layer',
+                            'type': 'line',
+                            'source': 'routes',
+                            'layout': {},
+                            'paint': {
+                                'line-color': [
+                                    'match', ['get', 'type'],
+                                    'Cycling', 'red', // '#bd4220',
+                                    '#5520b0'
+                                ],
+                                'line-width': 2,
+                                'line-opacity': .7
+                            }
+                        },
+                        firstSymbolId // new layer goes right before this one
+                    );
+                }
+
+            )
+
 
             map.addSource('saved-places', {
                 type: 'geojson',

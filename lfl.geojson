@@ -761,6 +761,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.7345359,
+          42.0781243
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Schiller Circle LFL #37959",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.72833159999999,
           42.0724216
         ],
@@ -936,6 +950,20 @@
       },
       "properties": {
         "name": "Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.73529529999999,
+          42.0769437
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Birchwood Little Libr. \u201cFree Dog Treats\u201d",
         "icon": "library-15"
       },
       "type": "Feature"
