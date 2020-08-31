@@ -30,22 +30,66 @@
         }
 
         let PLACES = {
-            'chicago': '16000US1714000',
+            //            'chicago': '16000US1714000',
             'wilmette': '16000US1782075',
             'winnetka': '16000US1782530',
             'kenilworth': '16000US1739519',
             'evanston': '16000US1724582',
             'glenview': '16000US1729938',
+            'northbrook': '16000US1753481',
             'skokie': '16000US1770122',
             'lincolnwood': '16000US1743744',
             'northfield': '16000US1753663',
             'morton-grove': '16000US1750647',
+            'harwood-heights': '16000US1733435',
+            'norridge': '16000US1753377',
+            'niles': '16000US1753000',
+            'park-ridge': '16000US1757875',
+            'glencoe': '16000US1729652',
+            'golf': '16000US1730328'
         }
 
+        let COMMAREAS = []
 
         let PALETTE = //['#a6cee3', '#1f78b4', '#b2df8a', '#33a02c', '#fb9a99', '#e31a1c', '#fdbf6f', '#ff7f00', '#cab2d6', '#6a3d9a']
             ['#8dd3c7', '#ffffb3', '#bebada', '#fb8072', '#80b1d3', '#fdb462', '#b3de69', '#fccde5', '#d9d9d9', '#bc80bd']
 
+        let commareas_geojson = null,
+            places_geojson = null;
+
+        function clearLayers(map, slug) {
+            if (map.getLayer(`${slug}-fill`)) {
+                map.removeLayer(`${slug}-fill`)
+            }
+            if (map.getLayer(`${slug}-line`)) {
+                map.removeLayer(`${slug}-line`)
+            }
+
+        }
+
+        function addLayers(map, slug, source, filter, fill) {
+            map.addLayer({
+                id: `${slug}-fill`,
+                type: 'fill',
+                source: source,
+                filter: filter,
+                paint: {
+                    'fill-color': fill,
+                    'fill-opacity': 0.3
+                }
+            }, 'routes-layer')
+            map.addLayer({
+                id: `${slug}-line`,
+                type: 'line',
+                source: source,
+                filter: filter,
+                paint: { // todo.. change colors? add borders?
+                    'line-color': '#333',
+                    'line-opacity': 1,
+                    'line-width': 1
+                }
+            }, 'routes-layer')
+        }
         mapboxgl.accessToken = 'pk.eyJ1Ijoiam9lZ2VybXVza2EiLCJhIjoiY2thOXNwNHpwMGp2NDJybnplZHE2NWsxZiJ9.R08AIHjCQZKow3hRRao5MA';
         var map = new mapboxgl.Map({
             container: 'map', // container id
@@ -119,66 +163,132 @@
                 paint: {}
             })
 
-            function checkHash(force_all) {
-                let hash_str = ''
-                if (force_all == 'force') {
-                    hash_str = '#all'
-                } else {
-                    hash_str = location.hash
+            function slugify(s) {
+                return s.toLowerCase().replace(' ', '-')
+            }
+
+            function extendBounds(bounds, feature) {
+                let coords = feature.geometry.coordinates
+                if (!bounds) {
+                    bounds = new mapboxgl.LngLatBounds(coords[0], coords[0])
                 }
+                bounds = coords.reduce((bounds, coord) => bounds.extend(coord), bounds)
+                return bounds
+            }
+
+            function checkHash(force_all) {
+                let hash_str = location.hash
+
+                if (force_all == 'force' && !hash_str) {
+                    hash_str = '#all'
+                }
+
+                let zoom = true,
+                    bounds = null
+
                 if (hash_str[0] == '#') {
                     let active_places = hash_str.substr(1).split(',')
                     if (active_places.indexOf('all') == 0) {
                         active_places = Object.keys(PLACES)
+                        zoom = false
                     }
-                    Object.keys(PLACES).forEach((place, i) => {
 
-                        if (map.getLayer(`${place}-fill`)) {
-                            map.removeLayer(`${place}-fill`)
-                        }
-                        if (map.getLayer(`${place}-line`)) {
-                            map.removeLayer(`${place}-line`)
-                        }
+                    // yes it's janky to do places and commareas separately
+                    // but i don't feel making one source that has cross-compatible
+                    // IDs and such so...
+                    Object.keys(PLACES).forEach((place, i) => {
+                        clearLayers(map, place)
                         if (active_places.indexOf(place) != -1) {
-                            map.addLayer({
-                                id: `${place}-fill`,
-                                type: 'fill',
-                                source: 'places',
-                                filter: ["==", ["get", "geoid"],
-                                    PLACES[place]
-                                ],
-                                paint: {
-                                    'fill-color': PALETTE[i],
-                                    'fill-opacity': 0.3
-                                }
-                            }, 'routes-layer')
-                            map.addLayer({
-                                id: `${place}-line`,
-                                type: 'line',
-                                source: 'places',
-                                filter: ["==", ["get", "geoid"],
-                                    PLACES[place]
-                                ],
-                                paint: { // todo.. change colors? add borders?
-                                    'line-color': '#333',
-                                    'line-opacity': 1,
-                                    'line-width': 1
-                                }
-                            }, 'routes-layer')
+                            let feature = null;
+                            places_geojson['features'].forEach(f => {
+                                    if (f.properties.geoid == PLACES[place]) {
+                                        feature = f
+                                    }
+                                })
+                                // if (zoom && feature) bounds = extendBounds(bounds, feature)
+                            addLayers(map, place,
+                                    'places', // source
+                                    ["==", ["get", "geoid"], PLACES[place]], // filter
+                                    PALETTE[i % PALETTE.length]) // fill
+
                         }
                     })
-                } else {
-                    if (map.getLayer('evanston-show')) {
-                        map.removeLayer('evanston-show')
+
+                    // now commareas
+                    let active_areas = hash_str.substr(1).split(',')
+                    if (active_areas.indexOf('all') == 0) {
+                        active_areas = COMMAREAS
+                        zoom = false
+                    }
+
+                    COMMAREAS.forEach((area, i) => {
+                        clearLayers(map, area)
+                        if (active_areas.indexOf(area) != -1) {
+                            let feature = null;
+                            commareas_geojson['features'].forEach(f => {
+                                    if (f.properties.slug == area) {
+                                        feature = f
+                                    }
+                                })
+                                // if (zoom && feature) bounds = extendBounds(bounds, feature)
+                            addLayers(map, area,
+                                    'commareas', // source
+                                    ["==", ["get", "slug"], area], // filter
+                                    PALETTE[i % PALETTE.length]) // fill 
+                        }
+                    })
+
+                    if (zoom && bounds) {
+                        map.fitBounds(bounds, {
+                            padding: 20
+                        })
                     }
                 }
 
             }
-            let places_url = `https://api.censusreporter.org/1.0/geo/show/tiger2018?geo_ids=${Object.values(PLACES).join(',')}`
-            map.addSource('places', {
-                type: 'geojson',
-                data: places_url
+
+            let commareas_promise = fetch('./commareas.geojson').then(r => {
+                if (r.status != 200) {
+                    throw new Error(`${r.status} ${r.statusText}`)
+                } else {
+                    return r.text()
+                }
+            }).then(t => {
+                commareas_geojson = JSON.parse(t)
+                commareas_geojson.features.forEach(f => {
+                    f['properties']['slug'] = slugify(f['properties'].community)
+                    COMMAREAS.push(f['properties']['slug'])
+                })
+                map.addSource('commareas', {
+                    type: 'geojson',
+                    data: commareas_geojson
+                })
+
+                // if there were any more async things happening, we'd need to 
+                // handle this more elegantly
+                COMMAREAS.sort()
             })
+            let places_url = `https://api.censusreporter.org/1.0/geo/show/tiger2018?geo_ids=${Object.values(PLACES).join(',')}`
+
+            let places_promise = fetch(places_url).then(r => {
+                if (r.status != 200) {
+                    throw new Error(`${r.status} ${r.statusText}`)
+                } else {
+                    return r.text()
+                }
+            }).then(t => {
+                places_geojson = JSON.parse(t)
+                map.addSource('places', {
+                    type: 'geojson',
+                    data: places_geojson
+                })
+            })
+
+            Promise.all([commareas_promise, places_promise]).then(_ => {
+                checkHash('force')
+            })
+
+
 
             // from https://docs.mapbox.com/mapbox-gl-js/example/polygon-popup-on-click/
             map.on('click', 'routes-layer', function(e) {
@@ -203,8 +313,6 @@
             map.addControl(new mapboxgl.GeolocateControl({
                 trackUserLocation: true
             }))
-
-            checkHash('force')
 
             window.addEventListener('hashchange', checkHash)
         })
