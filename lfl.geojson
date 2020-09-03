@@ -1027,6 +1027,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.725764,
+          42.026947
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "McCracken Little Free Library #96055",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.7135107,
           42.0630667
         ],
