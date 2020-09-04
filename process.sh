@@ -25,3 +25,4 @@ python ./process_gpx.py
 
 git add lfl.geojson paths.geojson
 
+http-server -p 1234 -o /
