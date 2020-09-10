@@ -1013,6 +1013,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.6696609,
+          42.0403063
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Abandoned Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.6737644,
           42.0287322
         ],
@@ -1426,6 +1440,20 @@
       },
       "properties": {
         "name": "Flying Pig LFL #57252",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.737664,
+          42.0281594
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Purple Roof LFL #86947",
         "icon": "library-15"
       },
       "type": "Feature"
