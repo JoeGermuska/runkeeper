@@ -129,6 +129,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.69496559999999,
+          42.016432599999995
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "EdgewaterReads.org LFL ER201704-05",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.721102,
           42.0800984
         ],
@@ -586,6 +600,20 @@
       },
       "properties": {
         "name": "Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.7004855,
+          42.0103502
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Little Free Library #79392",
         "icon": "library-15"
       },
       "type": "Feature"
