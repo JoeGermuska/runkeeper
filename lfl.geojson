@@ -3,6 +3,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.6989285,
+          42.014719299999996
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Snoopy\u2019s Doghouse LFL #48693",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.71232719999999,
           42.067817999999995
         ],
@@ -579,6 +593,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.6969196,
+          42.0066377
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Porthole Little Free Library #103074",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.7124418,
           42.0631914
         ],
@@ -698,6 +726,20 @@
       },
       "properties": {
         "name": "Little Free Library #70970",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.694458,
+          42.0077147
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "\u201cBe Safe Be Kind Be Well\u201d LFL #29505",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -971,6 +1013,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.6936935,
+          41.9997536
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Purple stars and bottlecaps LFL",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.7219281,
           42.0617063
         ],
@@ -1139,6 +1195,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.6936858,
+          42.0059606
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.7157155,
           42.050472
         ],
@@ -1217,6 +1287,20 @@
       "properties": {
         "name": "\u201cDog Biscuits Take a Treat\u201d mailbox",
         "icon": "dog-park-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.7005731,
+          42.0148805
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "LFL in a Garden #33719",
+        "icon": "library-15"
       },
       "type": "Feature"
     },
