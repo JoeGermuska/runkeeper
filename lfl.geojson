@@ -1195,6 +1195,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.75073739999999,
+          42.1277044
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Phil Thomas Mem. Playground LFL #98597",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.6936858,
           42.0059606
         ],
