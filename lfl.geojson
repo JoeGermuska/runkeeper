@@ -214,6 +214,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.7040663,
+          41.9867992
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Geneva Edwards Mem Chicago Branch #90604",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.68497669999999,
           42.0555513
         ],
@@ -1510,6 +1524,20 @@
       },
       "properties": {
         "name": "\u201cCurioser and curiouser!\u201d Alice LFL",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.7726967,
+          42.0460219
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Rustic Little Free Library #52818",
         "icon": "library-15"
       },
       "type": "Feature"
