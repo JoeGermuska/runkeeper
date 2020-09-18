@@ -1,3 +1,15 @@
+let EASING = {
+    'InOutSine': (x) => -(Math.cos(Math.PI * x) - 1) / 2
+}
+
+let FIT_BOUNDS_OPTIONS = {
+    padding: 20,
+    linear: false,
+    duration: 1250,
+    easing: EASING.InOutSine
+}
+
+
 function checkHash(force_all) {
     let hash_str = location.hash
 
@@ -5,12 +17,13 @@ function checkHash(force_all) {
         hash_str = '#all'
     }
 
-    let zoom = true,
-        bounds = null
+    let zoom = true
 
     if (hash_str[0] == '#') {
         let active_places = hash_str.substr(1).split(',')
-        if (active_places.indexOf('all') == 0) {
+        let show_all = (active_places.indexOf('all') == 0)
+
+        if (show_all) {
             active_places = Object.keys(PLACES)
             zoom = false
         }
@@ -18,13 +31,13 @@ function checkHash(force_all) {
         // yes it's janky to do places and commareas separately
         // but i don't feel making one source that has cross-compatible
         // IDs and such so...
+        let features = []
         Object.keys(PLACES).forEach((place, i) => {
             clearLayers(map, place)
             if (active_places.indexOf(place) != -1) {
-                let feature = null;
                 places_geojson['features'].forEach(f => {
                         if (f.properties.geoid == PLACES[place]) {
-                            feature = f
+                            features.push(f)
                         }
                     })
                     // if (zoom && feature) bounds = extendBounds(bounds, feature)
@@ -39,7 +52,7 @@ function checkHash(force_all) {
 
         // now commareas
         let active_areas = hash_str.substr(1).split(',')
-        if (active_areas.indexOf('all') == 0) {
+        if (show_all) {
             active_areas = COMMAREAS
             zoom = false
         }
@@ -47,10 +60,9 @@ function checkHash(force_all) {
         COMMAREAS.forEach((area, i) => {
             clearLayers(map, area)
             if (active_areas.indexOf(area) != -1) {
-                let feature = null;
                 commareas_geojson['features'].forEach(f => {
                         if (f.properties.slug == area) {
-                            feature = f
+                            features.push(f)
                         }
                     })
                     // if (zoom && feature) bounds = extendBounds(bounds, feature)
@@ -62,10 +74,8 @@ function checkHash(force_all) {
             }
         })
 
-        if (zoom && bounds) {
-            map.fitBounds(bounds, {
-                padding: 20
-            })
+        if (zoom) {
+            map.fitBounds(turf.extent(turf.featurecollection(features)), FIT_BOUNDS_OPTIONS)
         }
     }
 
@@ -190,10 +200,7 @@ function initMap() {
             r.text()).then(t => {
             routes_geojson = JSON.parse(t)
 
-            // var routes_bounds = completeBounds(routes_geojson.features)
-            // map.fitBounds(routes_bounds, {
-            //     padding: 20
-            // })
+            map.fitBounds(turf.extent(routes_geojson), FIT_BOUNDS_OPTIONS)
 
             map.addSource('routes', {
                 type: 'geojson',
