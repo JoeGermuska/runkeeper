@@ -171,6 +171,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.694346,
+          41.9921844
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "CCC \u201cCoach House\u201d Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.7390946,
           42.027674
         ],
@@ -747,6 +761,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.69568439999999,
+          41.9933227
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "The Sue and Irv Hirsh Memorial Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.694458,
           42.0077147
         ],
@@ -754,6 +782,20 @@
       },
       "properties": {
         "name": "\u201cBe Safe Be Kind Be Well\u201d LFL #29505",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.698261,
+          41.9949533
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Blue Handprints Little Free Library",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -1209,6 +1251,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.6935108,
+          41.9934169
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Little Free Library #19670",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.75073739999999,
           42.1277044
         ],
@@ -1377,6 +1433,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.6942856,
+          41.9921812
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Christ Church of Chicago LFL #68223",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.7003474,
           42.0800862
         ],
@@ -1497,6 +1567,20 @@
       "properties": {
         "name": "Little Free Library #22804",
         "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6942303,
+          41.9921787
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Tri-C\u2019s Little Pantry",
+        "icon": "grocery-15"
       },
       "type": "Feature"
     },

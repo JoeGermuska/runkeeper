@@ -27,6 +27,7 @@ def parse_gpx(p):
     d = {
         'name': name,
         'time': datetime.datetime.strptime(time, "%Y-%m-%dT%H:%M:%SZ"),
+        'time_str': time,
         'geometry': LineString(route)
     }
     
