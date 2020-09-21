@@ -213,6 +213,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.75035179999999,
+          42.138278199999995
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Karen Wadler Memorial LFL #86816",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.6948204,
           42.0458721
         ],
