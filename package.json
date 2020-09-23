@@ -1,0 +1,30 @@
+{
+    "name": "pandemic-paths",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+        "polys": "node scripts/create_all_polys.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JoeGermuska/runkeeper.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/JoeGermuska/runkeeper/issues"
+    },
+    "homepage": "https://github.com/JoeGermuska/runkeeper#readme",
+    "dependencies": {
+        "@turf/bbox": "^6.0.1",
+        "@turf/buffer": "^5.1.5",
+        "@turf/helpers": "^6.1.4",
+        "@turf/intersect": "^6.1.3"
+    },
+    "devDependencies": {
+        "@turf/turf": "^5.1.6",
+        "node-fetch": "^2.6.1",
+        "welshpowell": "^1.0.1"
+    }
+}

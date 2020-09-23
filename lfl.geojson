@@ -1321,6 +1321,34 @@
     {
       "geometry": {
         "coordinates": [
+          -87.68616019999999,
+          41.994921399999996
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Huffencooper Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6792589,
+          41.994206
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Flowery Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.7133903,
           42.069001899999996
         ],

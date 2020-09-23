@@ -16,37 +16,14 @@ let styles = {
     'frank': 'mapbox://styles/joegermuska/cka9tuolk0n921jse7dggjtll'
 }
 
-let PLACES = {
-    //            'chicago': '16000US1714000',
-    'wilmette': '16000US1782075',
-    'winnetka': '16000US1782530',
-    'kenilworth': '16000US1739519',
-    'evanston': '16000US1724582',
-    'glenview': '16000US1729938',
-    'northbrook': '16000US1753481',
-    'skokie': '16000US1770122',
-    'lincolnwood': '16000US1743744',
-    'northfield': '16000US1753663',
-    'morton-grove': '16000US1750647',
-    'harwood-heights': '16000US1733435',
-    'norridge': '16000US1753377',
-    'niles': '16000US1753000',
-    'park-ridge': '16000US1757875',
-    'glencoe': '16000US1729652',
-    'golf': '16000US1730328'
-}
-
-let PLACES_BY_GEOID = {}
-Object.keys(PLACES).forEach(k => PLACES_BY_GEOID[PLACES[k]] = k)
-
-let COMMAREAS = []
-
+// with some effort, we should be able to reduce this to just 4 and assign them carefully to avoid adjacent
+// polygons with the same fill
+// see https://carto.com/blog/sql-graph-coloring/
+// or possibly topojson.neighbors
 let PALETTE = //['#a6cee3', '#1f78b4', '#b2df8a', '#33a02c', '#fb9a99', '#e31a1c', '#fdbf6f', '#ff7f00', '#cab2d6', '#6a3d9a']
     ['#8dd3c7', '#ffffb3', '#bebada', '#fb8072', '#80b1d3', '#fdb462', '#b3de69', '#fccde5', '#d9d9d9', '#bc80bd']
 
-let commareas_geojson = null,
-    places_geojson = null,
-    routes_geojson = null,
+let routes_geojson = null,
     all_features = [],
     all_features_dict = {},
     map = null;
@@ -56,12 +33,6 @@ mapboxgl.accessToken = 'pk.eyJ1Ijoiam9lZ2VybXVza2EiLCJhIjoiY2thOXNwNHpwMGp2NDJyb
 /* 
  * UTILITIES
  */
-
-
-function slugify(s) {
-    return s.toLowerCase().replace(' ', '-')
-}
-
 
 function titleCase(s) {
     let parts = s.split(' '),
@@ -75,6 +46,7 @@ function titleCase(s) {
 /*
     OPERATIONS
 */
+
 
 /**
  * Check the value of the hash and update the map accordingly. 
@@ -179,18 +151,18 @@ function addPolygons() {
 
 function initCircles() {
     let source = map.addSource('circles', {
-        type: 'geojson',
-        data: turf.featureCollection([])
-    })
-    map.addLayer({
-        id: `circles-fill`,
-        type: 'fill',
-        source: 'circles',
-        paint: {
-            'fill-color': '#666',
-            'fill-opacity': 0.3
-        }
-    })
+            type: 'geojson',
+            data: turf.featureCollection([])
+        })
+        // map.addLayer({
+        //     id: `circles-fill`,
+        //     type: 'fill',
+        //     source: 'circles',
+        //     paint: {
+        //         'fill-color': '#666',
+        //         'fill-opacity': 0.3
+        //     }
+        // })
     map.addLayer({
         id: `circles-line`,
         type: 'line',
@@ -203,7 +175,7 @@ function initCircles() {
     })
 
     // from https://docs.mapbox.com/mapbox-gl-js/example/polygon-popup-on-click/
-    map.on('click', `circles-fill`, function(e) {
+    map.on('click', `circles-line`, function(e) {
         new mapboxgl.Popup()
             .setLngLat(e.lngLat)
             .setHTML(titleCase(e.features[0].properties['label']))
@@ -374,32 +346,18 @@ function initMap() {
 
         addSavedPlaces(map)
 
-        let commareas_promise = fetchJSON('./commareas.geojson')
-        commareas_promise.then(j => {
-            commareas_geojson = j
-            commareas_geojson.features.forEach(f => {
-                f['properties']['slug'] = slugify(f['properties'].community)
-                f['properties']['name'] = titleCase(f['properties'].community)
-                all_features.push(f)
-                all_features_dict[f.properties['slug']] = f
-            })
+        let polys_promise = fetchJSON('./all_polys.geojson')
+        polys_promise.then(j => {
+            // even though all_polys is valid geojson,
+            // historically we liked to have them in these
+            // forms instead.
+            all_features = j.features
+            all_features.forEach(f => all_features_dict[f.slug] = f)
         })
 
-        let places_url = `https://api.censusreporter.org/1.0/geo/show/tiger2018?geo_ids=${Object.values(PLACES).join(',')}`
-        let places_promise = fetchJSON(places_url)
-        places_promise.then(j => {
-            places_geojson = j
-            places_geojson.features.forEach(f => {
-                // names are ok
-                f.properties['slug'] = PLACES_BY_GEOID[f.properties['geoid']]
-                all_features.push(f)
-                all_features_dict[f.properties['slug']] = f
-            })
-        })
-
-        Promise.all([routes_promise, commareas_promise, places_promise]).then(_ => {
+        Promise.all([routes_promise, polys_promise]).then(_ => {
             addPolygons()
-                // setCircles(2, 5)
+                // setCircles(1, 10)
         })
 
         map.addControl(new mapboxgl.GeolocateControl({
