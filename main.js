@@ -352,12 +352,14 @@ function initMap() {
             // historically we liked to have them in these
             // forms instead.
             all_features = j.features
-            all_features.forEach(f => all_features_dict[f.slug] = f)
+            all_features.forEach(f => all_features_dict[f.properties.slug] = f)
         })
 
+        // this is the last stuff after all the data is loaded
         Promise.all([routes_promise, polys_promise]).then(_ => {
             addPolygons()
                 // setCircles(1, 10)
+            checkHash()
         })
 
         map.addControl(new mapboxgl.GeolocateControl({
@@ -365,6 +367,7 @@ function initMap() {
         }))
 
         window.addEventListener('hashchange', checkHash)
+
     })
 
 
