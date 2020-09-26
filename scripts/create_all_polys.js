@@ -1,7 +1,13 @@
-const fs = require("fs"),
-    turf = require("@turf/turf"),
-    fetch = require('node-fetch'),
-    welshpowell = require("welshpowell")
+/**
+ * Creates a single unified geojson file with polygons of interest from different sources.
+ * Applies a four_color algorithm to help prevent coloring adjacent polys with the same fill.
+ * Saves that as an index instead of an actual color, but colors can be applied in browser.
+ */
+import fs from "fs"
+import turf from "@turf/turf"
+import fetch from 'node-fetch'
+
+import { gen4col } from "./four_color.js"
 
 var all_features = []
 
@@ -13,21 +19,22 @@ var all_features = []
  */
 function compute_neighbors(all_features) {
     let graph = {
-        vertices: [],
-        edges: []
+        vertices: all_features.map(i => []),
+        edges: all_features.map(i => []),
+        degree: all_features.map(i => 0),
     }
 
     all_features.forEach((f, i) => {
-        graph.vertices.push(f.properties.slug)
-        console.log(`${f.properties.glenviewslug} is adjacent to...`)
-        graph.edges.push([])
+        graph.vertices[i] = f.properties.slug
+        console.log(`${f.properties.slug} is adjacent to...`)
         all_features.forEach((g, j) => {
             if (i != j) {
                 if (turf.intersect( // need to buffer a teeny bit
                         turf.buffer(f, .001, { units: 'kilometers' }),
                         turf.buffer(g, .001, { units: 'kilometers' }),
                     )) {
-                    graph.edges[i].push(g.properties.slug)
+                    graph.edges[i].push(j)
+                    graph.degree[i] = graph.edges[i].length
                     console.log(`...${g.properties.slug}`)
                 }
             }
@@ -90,7 +97,7 @@ let PLACES = {
 let PLACES_BY_GEOID = {}
 Object.keys(PLACES).forEach(k => PLACES_BY_GEOID[PLACES[k]] = k)
 
-let commareas_geojson = JSON.parse(fs.readFileSync(`${__dirname}/../commareas.geojson`, 'utf-8'))
+let commareas_geojson = JSON.parse(fs.readFileSync(`commareas.geojson`, 'utf-8'))
 
 commareas_geojson.features.forEach(f => {
     f['properties']['slug'] = slugify(f['properties'].community)
@@ -100,7 +107,7 @@ commareas_geojson.features.forEach(f => {
 
 let places_url = `https://api.censusreporter.org/1.0/geo/show/tiger2018?geo_ids=${Object.values(PLACES).join(',')}`
 fetchJSON(places_url).then(j => {
-    places_geojson = j
+    let places_geojson = j
     places_geojson.features.forEach(f => {
         // names are ok
         f.properties['slug'] = PLACES_BY_GEOID[f.properties['geoid']]
@@ -108,9 +115,14 @@ fetchJSON(places_url).then(j => {
         all_features.push(f)
     })
 
-    // let neighbor_graph = compute_neighbors(all_features)
-    // let colors = welshpowell.color(neighbor_graph)
-
-
-    fs.writeFileSync(`${__dirname}/../all_polys.geojson`, JSON.stringify(turf.featureCollection(all_features)), 'utf-8')
+    console.log("computing neighbors")
+    let neighbor_graph = compute_neighbors(all_features)
+    console.log("assigning colors")
+    let colors = gen4col(neighbor_graph.edges, true)
+    all_features.forEach((f, i) => {
+        f.properties['color_idx'] = colors[i]
+    })
+    console.log("writing file")
+    fs.writeFileSync(`all_polys.geojson`, JSON.stringify(turf.featureCollection(all_features)), 'utf-8')
+    console.log("DONE")
 })

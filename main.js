@@ -54,9 +54,15 @@ function titleCase(s) {
  * @param {HashChangeEvent} evt
  */
 function checkHash(evt) {
-    let slugs = location.hash.substr(1).split(','),
-        zoom = true,
-        features = [];
+    let zoom = true,
+        features = [],
+        slugs = [];
+
+    let slug_str = location.hash.substr(1)
+
+    if (slug_str) {
+        slugs = slug_str.split(',')
+    }
 
     if (slugs.length == 0 || slugs[0] == 'all') {
         features = all_features
@@ -111,7 +117,9 @@ function addSavedPlaces(map) {
 function addPolygons() {
 
     all_features.forEach((f, i) => {
-        f.properties['fill-color'] = PALETTE[i % PALETTE.length]
+        // this lets us be more flexible about the actual color
+        // without having to regenerate the combined polys.
+        f.properties['fill-color'] = PALETTE[f.properties.color_idx]
     })
 
     // add features source and layer
@@ -147,6 +155,17 @@ function addPolygons() {
             .setHTML(titleCase(e.features[0].properties['name']))
             .addTo(map);
     });
+}
+
+function setupFilterMenu() {
+    // var select = document.getElementById('focus-poly'),
+    //     places = [],
+    //     commareas = []
+    // all_features.forEach((f,i) => {
+    //     if ('community' in f.properties) {
+    //         comm_areas.push([])
+    //     }
+    // })    
 }
 
 function initCircles() {
@@ -359,6 +378,7 @@ function initMap() {
         Promise.all([routes_promise, polys_promise]).then(_ => {
             addPolygons()
                 // setCircles(1, 10)
+            setupFilterMenu()
             checkHash()
         })
 

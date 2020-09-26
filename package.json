@@ -2,6 +2,7 @@
     "name": "pandemic-paths",
     "version": "1.0.0",
     "description": "",
+    "type": "module",
     "main": "main.js",
     "scripts": {
         "polys": "node scripts/create_all_polys.js"
