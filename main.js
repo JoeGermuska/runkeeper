@@ -157,15 +157,42 @@ function addPolygons() {
     });
 }
 
+function makeOptGroup(name, kids) {
+    let grp = document.createElement('optgroup')
+    grp.innerText = name
+    kids.forEach(k => {
+        grp.appendChild(k)
+    })
+    return grp
+}
+
 function setupFilterMenu() {
-    // var select = document.getElementById('focus-poly'),
-    //     places = [],
-    //     commareas = []
-    // all_features.forEach((f,i) => {
-    //     if ('community' in f.properties) {
-    //         comm_areas.push([])
-    //     }
-    // })    
+    var select = document.getElementById('focus-poly'),
+        places = [],
+        commareas = []
+    all_features.forEach((f, i) => {
+        let opt = document.createElement('option')
+        opt.setAttribute('value', f.properties.slug)
+        opt.innerText = f.properties.name
+        let tup = [f.properties.slug, opt]
+        if ('community' in f.properties) {
+            commareas.push(tup)
+        } else {
+            places.push(tup)
+        }
+    })
+    if (places.length > 0) {
+        places.sort()
+        select.appendChild(makeOptGroup('Places', places.map(p => p[1])))
+    }
+    if (commareas.length > 0) {
+        commareas.sort()
+        select.appendChild(makeOptGroup('Community Areas', commareas.map(ca => ca[1])))
+    }
+    select.addEventListener('change', e => {
+        window.location.hash = e.target.value
+    })
+
 }
 
 function initCircles() {

@@ -452,6 +452,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.7560884,
+          42.128487199999995
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "\u201cTake a Book * Return a Book\u201d LFL #9914",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.72135779999999,
           42.0761469
         ],
@@ -1216,6 +1230,20 @@
       },
       "properties": {
         "name": "Birchwood Little Libr. \u201cFree Dog Treats\u201d",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.7568445,
+          42.1305978
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "St Elisabeth\u2019s LFL #46675",
         "icon": "library-15"
       },
       "type": "Feature"
