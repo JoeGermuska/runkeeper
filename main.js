@@ -159,7 +159,7 @@ function addPolygons() {
 
 function makeOptGroup(name, kids) {
     let grp = document.createElement('optgroup')
-    grp.innerText = name
+    grp.setAttribute('label', name)
     kids.forEach(k => {
         grp.appendChild(k)
     })
@@ -183,7 +183,7 @@ function setupFilterMenu() {
     })
     if (places.length > 0) {
         places.sort()
-        select.appendChild(makeOptGroup('Places', places.map(p => p[1])))
+        select.appendChild(makeOptGroup('Cities/Towns', places.map(p => p[1])))
     }
     if (commareas.length > 0) {
         commareas.sort()
