@@ -354,6 +354,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.66643289999999,
+          42.009288
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Little Bird book exchange",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.7244541,
           42.0416235
         ],
@@ -389,6 +403,20 @@
       },
       "properties": {
         "name": "Alex Okrent memorial LFL #15586",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.66720199999999,
+          42.0193283
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Little Free Library #52103",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -957,6 +985,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.6636223,
+          42.0159733
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Dogs & Flowering Trees LFL #101995",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.7268356,
           42.0387097
         ],
@@ -1209,6 +1251,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.6665757,
+          42.012873
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Margaret Wheatley quote LFL #64248",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.7219281,
           42.0617063
         ],
@@ -1328,6 +1384,20 @@
       },
       "properties": {
         "name": "\"Bark for Books\" LFL #10616",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.66674809999999,
+          42.0170302
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Little Free Library",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -1706,6 +1776,20 @@
       },
       "properties": {
         "name": "Little Free Library #62655",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.67072879999999,
+          42.0127721
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Clouds and Grass LFL #80111",
         "icon": "library-15"
       },
       "type": "Feature"
