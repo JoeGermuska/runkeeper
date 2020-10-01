@@ -550,6 +550,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.6656574,
+          41.999854
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Red and Black LFL ",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.7005094,
           42.0633021
         ],
@@ -677,6 +691,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.6679688,
+          42.0060381
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Parking Lot LFL",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.71959559999999,
           42.0545877
         ],
@@ -698,6 +726,20 @@
       },
       "properties": {
         "name": "Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6703033,
+          41.9998784
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Schreiber Park Barn LFL #80806",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -1265,6 +1307,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.6768962,
+          42.011455999999995
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "\u201cIt\u2019s a jungle out there \u201c LFL",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.7219281,
           42.0617063
         ],
@@ -1755,6 +1811,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.66939939999999,
+          42.002003699999996
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Little Free Library #71133",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.70362539999999,
           42.0558695
         ],
@@ -2035,6 +2105,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.6654039,
+          42.0002977
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Sheep on the Roof LFL #66510",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.6806409,
           42.054035299999995
         ],
@@ -2168,6 +2252,20 @@
       },
       "properties": {
         "name": "Median Little Free Library #102138",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6859738,
+          42.0234044
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Natural Wood little free library",
         "icon": "library-15"
       },
       "type": "Feature"
