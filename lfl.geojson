@@ -298,6 +298,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.6750917,
+          42.0027003
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Larry Deysach Memorial Library #11908",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.71632939999999,
           42.070692099999995
         ],
@@ -501,6 +515,20 @@
       },
       "properties": {
         "name": "Little Free Library #37511",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6656795,
+          42.001401699999995
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Plain wood little free library",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -880,6 +908,20 @@
       },
       "properties": {
         "name": "Red Barn LFL #77880",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6661902,
+          42.0070383
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Lifeline Theatre Community Library",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -2168,6 +2210,20 @@
       },
       "properties": {
         "name": "Litte Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.67700649999999,
+          42.013824299999996
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Butterfly and Hummingbird LFL",
         "icon": "library-15"
       },
       "type": "Feature"
