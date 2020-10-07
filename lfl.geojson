@@ -185,6 +185,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.7297612,
+          41.995348299999996
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Red roof dragonfly LFL",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.7390946,
           42.027674
         ],
@@ -733,6 +747,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.72972999999999,
+          41.9840977
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Brynford Park LFL #89213",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.6679688,
           42.0060381
         ],
@@ -992,6 +1020,20 @@
       },
       "properties": {
         "name": "Little Free Library #70970",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.7322124,
+          41.9842004
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "\u201ca uniquely portable magic\u201d LFL #61674",
         "icon": "library-15"
       },
       "type": "Feature"
