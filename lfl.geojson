@@ -901,6 +901,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.7792929,
+          42.0380919
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Morton Grove Village Hall LFL #73698",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.69401769999999,
           42.055582699999995
         ],
@@ -1272,6 +1286,20 @@
       },
       "properties": {
         "name": "Little Free Library #75529",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.71278009999999,
+          41.9878067
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Three Readers LFL #46875",
         "icon": "library-15"
       },
       "type": "Feature"
