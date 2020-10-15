@@ -58,6 +58,10 @@ function fetchJSON(url) {
             }
         }).then(t => {
             resolve(JSON.parse(t))
+        }).catch(e => {
+            console.log(`fetchJSON error with ${url}`)
+            console.log(`${e}`)
+            reject(e)
         })
     })
 }
@@ -92,7 +96,8 @@ let PLACES = {
     'niles': '16000US1753000',
     'park-ridge': '16000US1757875',
     'glencoe': '16000US1729652',
-    'golf': '16000US1730328'
+    'golf': '16000US1730328',
+    'highland-park': '16000US1734722'
 }
 let PLACES_BY_GEOID = {}
 Object.keys(PLACES).forEach(k => PLACES_BY_GEOID[PLACES[k]] = k)
@@ -105,7 +110,7 @@ commareas_geojson.features.forEach(f => {
     all_features.push(f)
 })
 
-let places_url = `https://api.censusreporter.org/1.0/geo/show/tiger2018?geo_ids=${Object.values(PLACES).join(',')}`
+let places_url = `https://api.censusreporter.org/1.0/geo/show/tiger2019?geo_ids=${Object.values(PLACES).join(',')}`
 fetchJSON(places_url).then(j => {
     let places_geojson = j
     places_geojson.features.forEach(f => {
@@ -125,4 +130,6 @@ fetchJSON(places_url).then(j => {
     console.log("writing file")
     fs.writeFileSync(`all_polys.geojson`, JSON.stringify(turf.featureCollection(all_features)), 'utf-8')
     console.log("DONE")
+}).catch(e => {
+    console.log(e)
 })
