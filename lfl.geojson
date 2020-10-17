@@ -1097,6 +1097,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.7731325,
+          42.1553099
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Ref-green-blue w/bunny handle LFL",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.7197757,
           42.045469399999995
         ],
@@ -1769,6 +1783,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.7101278,
+          41.979306199999996
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Bring a book take a book LFL",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.7319569,
           42.017644499999996
         ],
@@ -1874,6 +1902,20 @@
       },
       "properties": {
         "name": "Key-handle LFL #44604 est. 2016",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.7017546,
+          41.9812398
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Little Free Library #44911",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -2112,6 +2154,20 @@
       },
       "properties": {
         "name": "Blue LFL with flowery roof",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6991491,
+          41.976676999999995
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "North Shore Seventh-Day Adventist LFL",
         "icon": "library-15"
       },
       "type": "Feature"
