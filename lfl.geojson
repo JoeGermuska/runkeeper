@@ -480,6 +480,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.7334016,
+          42.1083892
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Winnetka Congregational LFL",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.6871141,
           42.0416898
         ],
@@ -747,6 +761,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.740774,
+          41.9835195
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Blue LFL w metal roof #74712",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.72972999999999,
           41.9840977
         ],
@@ -768,6 +796,20 @@
       },
       "properties": {
         "name": "Parking Lot LFL",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.7433868,
+          41.986354399999996
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Red roof white Little Library",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -1587,6 +1629,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.7430562,
+          41.9831016
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Mays Angelou LFL #107803",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.6737644,
           42.0287322
         ],
@@ -2399,6 +2455,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.7160554,
+          41.9743208
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.69322009999999,
           42.0463854
         ],
@@ -2406,6 +2476,20 @@
       },
       "properties": {
         "name": "Baba\u2019s Little Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.71461339999999,
+          41.9733424
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "French door decorated LFL #57869",
         "icon": "library-15"
       },
       "type": "Feature"
