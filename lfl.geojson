@@ -508,6 +508,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.6835457,
+          41.978657999999996
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Colorful little free library #9880",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.6876046,
           42.0165006
         ],
@@ -578,6 +592,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.68743219999999,
+          41.976926
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Little green little free library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.6929814,
           42.035095
         ],
@@ -613,6 +641,21 @@
       },
       "properties": {
         "name": "Unitarian Church of Evanston LFL #81909",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6722556,
+          41.982972499999995
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "5531-5599 N Paulina St, Chicago, IL 60640, USA",
+        "name": "Beat-up Edgewater Reads LFL",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -733,6 +776,21 @@
     {
       "geometry": {
         "coordinates": [
+          -87.6813504,
+          41.978540599999995
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "2047 W Summerdale Ave, Chicago, IL 60625, USA",
+        "name": "Missing door little free library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.71578079999999,
           42.072769199999996
         ],
@@ -768,6 +826,20 @@
       },
       "properties": {
         "name": "Blue LFL w metal roof #74712",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6789293,
+          41.9788314
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Little free library #24571",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -1132,6 +1204,21 @@
       },
       "properties": {
         "name": "Blue Handprints Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6834698,
+          41.9797635
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "2138 W Balmoral Ave, Chicago, IL 60625, USA",
+        "name": "Little Free Library #105413",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -2126,6 +2213,21 @@
       },
       "properties": {
         "name": "Little Free Library #61277",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6809638,
+          41.9769083
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "2012-2098 W Farragut Ave, Chicago, IL 60625, USA",
+        "name": "Blue / white little free library #108407",
         "icon": "library-15"
       },
       "type": "Feature"
