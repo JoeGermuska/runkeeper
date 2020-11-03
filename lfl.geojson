@@ -115,6 +115,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.6667202,
+          41.9944059
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Handprints Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.7268788,
           42.035281999999995
         ],
@@ -178,6 +192,20 @@
       },
       "properties": {
         "name": "CCC \u201cCoach House\u201d Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6656376,
+          41.9870987
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Rivendell Theater Little Free Library",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -396,6 +424,21 @@
     {
       "geometry": {
         "coordinates": [
+          -87.66861209999999,
+          41.9971062
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "1519 W Highland Ave, Chicago, IL 60660, USA",
+        "name": "\"You're never too old...\" LFL",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.7244541,
           42.0416235
         ],
@@ -445,6 +488,20 @@
       },
       "properties": {
         "name": "Big Green Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6736581,
+          41.996848299999996
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Green-roofed bead board LFL w chimney",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -833,6 +890,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.66544449999999,
+          41.996877999999995
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Shingled Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.6789293,
           41.9788314
         ],
@@ -1176,6 +1247,20 @@
       },
       "properties": {
         "name": "The Sue and Irv Hirsh Memorial Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6649456,
+          41.9963786
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Flower faces and eyes. LFL",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -1548,6 +1633,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.6652876,
+          41.9927117
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Ted cream and gray LFL",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.6936935,
           41.9997536
         ],
@@ -1786,6 +1885,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.67338749999999,
+          41.9923302
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Flower-knob shingled LFL",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.6885112,
           42.0316682
         ],
@@ -1863,6 +1976,21 @@
       },
       "properties": {
         "name": "Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6646985,
+          41.9944962
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "1330-1398 W Granville Ave, Chicago, IL 60660, USA",
+        "name": "Weathered Little Free Library",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -2080,6 +2208,21 @@
     {
       "geometry": {
         "coordinates": [
+          -87.665668,
+          41.9893334
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "Chicago, IL 60660, USA",
+        "name": "Senn Little Free Art Box",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.7003474,
           42.0800862
         ],
@@ -2115,6 +2258,21 @@
       },
       "properties": {
         "name": "Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6671626,
+          41.988392
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "Chicago, IL 60660, USA",
+        "name": "Senn Bulldogs Little Free Library",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -2459,6 +2617,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.6733825,
+          41.992539199999996
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Peace LFL Orange w roof letters",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.6654039,
           42.0002977
         ],
@@ -2529,6 +2701,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.6623063,
+          41.996348999999995
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Dr Seuss & Frederick Douglass quotes LFL",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.67700649999999,
           42.013824299999996
         ],
@@ -2536,6 +2722,21 @@
       },
       "properties": {
         "name": "Butterfly and Hummingbird LFL",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6745919,
+          41.99678
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "1758-1798 W Highland Ave, Chicago, IL 60660, USA",
+        "name": "Star roof Little Free Library",
         "icon": "library-15"
       },
       "type": "Feature"
