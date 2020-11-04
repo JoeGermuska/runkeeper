@@ -495,6 +495,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.7385102,
+          41.993749799999996
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Flowers and birds LFL #62572",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.6736581,
           41.996848299999996
         ],
@@ -1639,7 +1653,7 @@
         "type": "Point"
       },
       "properties": {
-        "name": "Ted cream and gray LFL",
+        "name": "Red, cream and grey LFL",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -2216,6 +2230,20 @@
       "properties": {
         "address": "Chicago, IL 60660, USA",
         "name": "Senn Little Free Art Box",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.7469904,
+          41.9912026
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Sauganash Elementary LFL #80677",
         "icon": "library-15"
       },
       "type": "Feature"
