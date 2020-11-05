@@ -1633,6 +1633,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.7096201,
+          41.962019399999996
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Snoopy peque\u00f1a biblioteca gratuita 92706",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.75898649999999,
           42.0485584
         ],
@@ -1794,6 +1808,20 @@
       },
       "properties": {
         "name": "Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.70731339999999,
+          41.9729531
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Low-slung \u201clending library\u201d",
         "icon": "library-15"
       },
       "type": "Feature"
