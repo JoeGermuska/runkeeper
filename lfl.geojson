@@ -776,6 +776,21 @@
     {
       "geometry": {
         "coordinates": [
+          -87.68338589999999,
+          41.9615805
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "2148 W Montrose Ave, Chicago, IL 60618, USA",
+        "name": "Little Women ads LFL #95051",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.6859671,
           42.0097531
         ],
@@ -1941,6 +1956,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.68394839999999,
+          41.963534599999996
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Little Free Library #31007",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.6885112,
           42.0316682
         ],
@@ -2272,6 +2301,20 @@
       },
       "properties": {
         "name": "Sauganash Elementary LFL #80677",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.68215599999999,
+          41.963349199999996
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Little Free Library #10510",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -2814,6 +2857,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.6712099,
+          41.974296599999995
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Carmen Library giant Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.7160554,
           41.9743208
         ],
@@ -2919,6 +2976,20 @@
       },
       "properties": {
         "name": "Ranch-hand scenes LFL #37877",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.68402379999999,
+          41.9692903
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "\u201cImagine\u201d LFL w/Blue French doors ",
         "icon": "library-15"
       },
       "type": "Feature"
