@@ -1634,6 +1634,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.7911187,
+          42.1748767
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Progress by P3 LFL",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.6956747,
           42.054242099999996
         ],
@@ -1767,6 +1781,20 @@
       },
       "properties": {
         "name": "St Elisabeth\u2019s LFL #46675",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.7879182,
+          42.1699048
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Druid house LFL",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -2315,6 +2343,20 @@
       },
       "properties": {
         "name": "Little Free Library #10510",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.7299996,
+          41.9624422
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Free books * Libros gratis LFL #45772",
         "icon": "library-15"
       },
       "type": "Feature"
