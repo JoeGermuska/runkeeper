@@ -227,6 +227,21 @@
     {
       "geometry": {
         "coordinates": [
+          -87.6688113,
+          41.9926102
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "1599-1501 W Glenlake Ave, Chicago, IL 60660, USA",
+        "name": "Red/Green tall Peque\u00f1a Bib. Grat. #92725",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.7390946,
           42.027674
         ],
@@ -862,6 +877,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.65653619999999,
+          41.977791599999996
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Red silver blue w stars LFL",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.6813504,
           41.978540599999995
         ],
@@ -870,6 +899,20 @@
       "properties": {
         "address": "2047 W Summerdale Ave, Chicago, IL 60625, USA",
         "name": "Missing door little free library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.65775359999999,
+          41.9760862
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Harold and the Purple Crayon LFL #98066",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -905,6 +948,21 @@
     {
       "geometry": {
         "coordinates": [
+          -87.66407389999999,
+          41.9979464
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "6355 N Wayne Ave, Chicago, IL 60660, USA",
+        "name": "Shingled Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.740774,
           41.9835195
         ],
@@ -912,6 +970,20 @@
       },
       "properties": {
         "name": "Blue LFL w metal roof #74712",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6607027,
+          41.9919128
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Frosted gingerbread Little Free Library",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -1080,6 +1152,21 @@
       },
       "properties": {
         "name": "Matt Polston Memorial LFL #85729",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6631262,
+          41.9926895
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "1214-1398 W Glenlake Ave, Chicago, IL 60660, USA",
+        "name": "\u201cGlenlake Branch Library\u201d",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -1304,6 +1391,20 @@
       },
       "properties": {
         "name": "\u201cBe Safe Be Kind Be Well\u201d LFL #29505",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6622594,
+          41.9946227
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Taupe and cream Little Free Library",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -1585,6 +1686,20 @@
       },
       "properties": {
         "name": "\u201cBookswap\u201d Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6568695,
+          41.990632399999996
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Shingled Little Free Library",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -1893,6 +2008,20 @@
       },
       "properties": {
         "name": "\u201cBe Your Self\u201d LFL #38261",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.661855,
+          41.991764499999995
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Barn-like Little Free Library",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -2279,6 +2408,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.6577559,
+          41.9777056
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Painted Cardinal & chimney LFL",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.7017546,
           41.9812398
         ],
@@ -2534,6 +2677,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.6673502,
+          41.993570899999995
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Round side Windows green/blue LFL #30574",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.6892099,
           42.0277363
         ],
@@ -2611,6 +2768,20 @@
       },
       "properties": {
         "name": "Blue LFL with flowery roof",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6568836,
+          41.9886884
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Jardin de Gatita LFL",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -2821,6 +2992,21 @@
       },
       "properties": {
         "name": "Little Free Library #41789",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6629797,
+          41.997254
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "6398-6300 N Lakewood Ave, Chicago, IL 60660, USA",
+        "name": "Book covers Little Free Library",
         "icon": "library-15"
       },
       "type": "Feature"
