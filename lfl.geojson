@@ -468,6 +468,21 @@
     {
       "geometry": {
         "coordinates": [
+          -87.685531,
+          41.969606
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "4828 N Bell Ave, Chicago, IL 60625, USA",
+        "name": "Tall blue \u201cbook dreams\u201d LFL",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.7272684,
           42.08594
         ],
@@ -777,6 +792,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.6872582,
+          41.9705411
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "St. Matthias Little Free Pantry",
+        "icon": "grocery-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.71950439999999,
           42.0802796
         ],
@@ -1026,6 +1055,20 @@
       },
       "properties": {
         "name": "Brynford Park LFL #89213",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6804441,
+          41.9614046
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "JMU purple/gold LFL #14869",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -2352,6 +2395,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.6879962,
+          41.9723501
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Bill Heye Mem. Tiny Lending Library (x2)",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.7005731,
           42.0148805
         ],
@@ -2677,6 +2734,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.67643149999999,
+          41.9686897
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "McPherson Elementary LFL #10458",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.6673502,
           41.993570899999995
         ],
@@ -2810,6 +2881,20 @@
       },
       "properties": {
         "name": "Morton Grove Comm Church LFL #20555",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6852181,
+          41.971594499999995
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "You Are Beautiful variegated LFL #85277",
         "icon": "library-15"
       },
       "type": "Feature"
