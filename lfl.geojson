@@ -707,6 +707,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.703561,
+          41.9639662
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Yellow w/butterflies LFL",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.6929814,
           42.035095
         ],
@@ -1512,6 +1526,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.7033106,
+          41.9623744
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Double LFL #38021",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.7031587,
           42.0621751
         ],
@@ -2304,6 +2332,20 @@
       },
       "properties": {
         "name": "Flowery Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.69999399999999,
+          41.9648739
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Black roof red LFL w/stickers #57379",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -3149,6 +3191,21 @@
       "properties": {
         "address": "1758-1798 W Highland Ave, Chicago, IL 60660, USA",
         "name": "Star roof Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.7045412,
+          41.9648967
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "3024 W Wilson Ave, Chicago, IL 60625, USA",
+        "name": "PEAP Library (its a book!) #40314",
         "icon": "library-15"
       },
       "type": "Feature"
