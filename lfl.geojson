@@ -934,6 +934,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.6835675,
+          42.0356155
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Big Rainbow Front Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.65653619999999,
           41.977791599999996
         ],
@@ -1351,6 +1365,20 @@
       "properties": {
         "name": "Lifeline Theatre Community Library",
         "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6959627,
+          42.0385596
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "The Licky Lab & Alpaca Gallery",
+        "icon": "art-gallery-15"
       },
       "type": "Feature"
     },
@@ -2628,6 +2656,20 @@
       "properties": {
         "name": "Replica of its house LFL #34876",
         "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6786205,
+          42.0380262
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "TAG Tiny Art Gallery",
+        "icon": "art-gallery-15"
       },
       "type": "Feature"
     },
