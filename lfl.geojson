@@ -1062,6 +1062,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.689872,
+          41.9627927
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Little red little free library #66435",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.66544449999999,
           41.996877999999995
         ],
@@ -1582,6 +1596,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.69136669999999,
+          41.9649666
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Free Little Pantry",
+        "icon": "grocery-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.7031587,
           42.0621751
         ],
@@ -1645,6 +1673,20 @@
       },
       "properties": {
         "name": "Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6943376,
+          41.965765399999995
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Tall striped LFL #19262",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -1785,6 +1827,20 @@
       },
       "properties": {
         "name": "Blue Guestbook LFL #104952",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6925787,
+          41.964411899999995
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "The Watsons go to Birmingham LFL #74129",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -1995,6 +2051,21 @@
       },
       "properties": {
         "name": "Birchwood Little Libr. \u201cFree Dog Treats\u201d",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.69120389999999,
+          41.9642652
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "4552-4538 N Campbell Ave, Chicago, IL 60625, USA",
+        "name": "\ud83d\udc36& \ud83c\udf1e&\ud83c\udf66 Little Free Library #30100",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -2670,6 +2741,20 @@
       "properties": {
         "name": "TAG Tiny Art Gallery",
         "icon": "art-gallery-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6917472,
+          41.9641978
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "The Magic Treehouse Library @ Waters",
+        "icon": "library-15"
       },
       "type": "Feature"
     },
