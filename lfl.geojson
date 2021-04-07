@@ -1160,6 +1160,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.72063899999999,
+          41.963115599999995
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Simplay3 brand little free pantry",
+        "icon": "grocery-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.71959559999999,
           42.0545877
         ],
@@ -2353,6 +2367,21 @@
     {
       "geometry": {
         "coordinates": [
+          -87.722976,
+          41.9731974
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "5041 N Hamlin Ave, Chicago, IL 60625, USA",
+        "name": "\"I Brake for Little Free Libraries\" LFL",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.6935108,
           41.9934169
         ],
@@ -2719,6 +2748,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.7230895,
+          41.9744147
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Little Free Library #94448",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.7003474,
           42.0800862
         ],
@@ -2853,6 +2896,20 @@
       },
       "properties": {
         "name": "Little Free Library #62655",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.7232971,
+          41.9639759
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Haugen School Rainbow LFL #68052",
         "icon": "library-15"
       },
       "type": "Feature"
