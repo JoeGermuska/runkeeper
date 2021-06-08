@@ -373,10 +373,15 @@ function initMap() {
 
             // from https://docs.mapbox.com/mapbox-gl-js/example/polygon-popup-on-click/
             map.on('click', 'routes-layer', function(e) {
+                const popups = document.getElementsByClassName('mapboxgl-popup');
+                if (popups.length) {
+                    popups[0].remove();
+                }
                 new mapboxgl.Popup()
                     .setLngLat(e.lngLat)
                     .setHTML(e.features[0].properties.name)
                     .addTo(map);
+                e.cancelBubble() // this prevents other markers from being cleared...
             });
 
             // Change the cursor to a pointer when the mouse is over the routes layer.

@@ -581,6 +581,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.7074955,
+          42.051057
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Bright blue Little Free Library #125018",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.6865277,
           42.0073089
         ],
@@ -897,7 +911,7 @@
         "type": "Point"
       },
       "properties": {
-        "name": "Little Free Library",
+        "name": "Little Free Library #43844",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -1098,6 +1112,20 @@
       "properties": {
         "name": "Little free library #24571",
         "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.7076216,
+          42.0509418
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Plastic bin free pantry",
+        "icon": "grocery-15"
       },
       "type": "Feature"
     },
@@ -1350,6 +1378,20 @@
       },
       "properties": {
         "name": "Little Free Library #79392",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.70128419999999,
+          41.9712386
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Battered red n white little free library",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -2030,6 +2072,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.717598,
+          42.0632713
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Northminster Nursery School LFL (empty!)",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.6768962,
           42.011455999999995
         ],
@@ -2108,6 +2164,20 @@
       },
       "properties": {
         "name": "Druid house LFL",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.693666,
+          42.0522886
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Bright blue empty LFL #114575",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -2220,6 +2290,20 @@
       },
       "properties": {
         "name": "Barn-like Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.72142989999999,
+          42.04452
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Little Free Library bench #107438",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -2635,6 +2719,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.7185824,
+          42.0655114
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Little Free Library #116166",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.6802127,
           42.0293284
         ],
@@ -2649,6 +2747,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.6915035,
+          42.0539056
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Tall fancy Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.6577559,
           41.9777056
         ],
@@ -2656,6 +2768,20 @@
       },
       "properties": {
         "name": "Painted Cardinal & chimney LFL",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6983502,
+          42.052191799999996
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Grace & Adam's mirror-door LFL #39938",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -2748,6 +2874,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.6989081,
+          41.973101899999996
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Chicago Flag Parent n Kid LFLs #66702",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.7230895,
           41.9744147
         ],
@@ -2784,6 +2924,20 @@
       "properties": {
         "name": "TAG Tiny Art Gallery",
         "icon": "art-gallery-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.7001399,
+          41.9733028
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Wood Crafted LFL #76708 w Chicago Flag",
+        "icon": "library-15"
       },
       "type": "Feature"
     },
@@ -2882,6 +3036,21 @@
       },
       "properties": {
         "name": "Edible Evanston Nature's Little Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.70744739999999,
+          42.0496799
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "1740 Leland Ave, Evanston, IL 60201, USA",
+        "name": "\"Free books\" plastic tub",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -2995,6 +3164,20 @@
       },
       "properties": {
         "name": "Round side Windows green/blue LFL #30574",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.7123785,
+          42.0493917
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Rose-handled Little Free Library",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -3205,6 +3388,20 @@
       },
       "properties": {
         "name": "Purple Roof LFL #86947",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.69657889999999,
+          41.967674699999996
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Weathered Little Free Library #9351",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -3489,6 +3686,21 @@
       "properties": {
         "name": "Yellow Little Free Library #58203",
         "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.695916,
+          42.0485934
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "1655 Church St, Evanston, IL 60201, USA",
+        "name": "Bilingual \"Free Little Pantry\"",
+        "icon": "grocery-15"
       },
       "type": "Feature"
     },

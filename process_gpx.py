@@ -34,7 +34,14 @@ def parse_gpx(p):
     return d
 
 def gpx_to_geojson(path, output_file):
-    routes = [parse_gpx(walk) for walk in path.glob('*.gpx')]
+    routes = []
+    for walk in path.glob('*.gpx'):
+        try:
+            routes.append(parse_gpx(walk))
+        except Exception as e:
+            print(f"Error processing {walk}")
+            print(f"{e}")
+
     df = gpd.GeoDataFrame(routes)
     df.sort_values('time',inplace=True)
 
