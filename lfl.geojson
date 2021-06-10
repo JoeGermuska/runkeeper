@@ -623,6 +623,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.7331931,
+          41.970399799999996
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Yellow/purple little free library w/tile",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.6871141,
           42.0416898
         ],
@@ -742,6 +756,20 @@
       },
       "properties": {
         "name": "Yellow w/butterflies LFL",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.7125733,
+          42.045127799999996
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Little Free Library #110964",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -2628,6 +2656,20 @@
       },
       "properties": {
         "name": "Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.73448289999999,
+          41.9733768
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Yellow Little Free Library #52505",
         "icon": "library-15"
       },
       "type": "Feature"
