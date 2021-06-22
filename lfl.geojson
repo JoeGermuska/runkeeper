@@ -468,6 +468,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.6850518,
+          41.973200299999995
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "LFL w/dog hook #46106",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.7244541,
           42.0416235
         ],
@@ -560,6 +574,20 @@
       },
       "properties": {
         "name": "Green-roofed bead board LFL w chimney",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.69648099999999,
+          41.9718717
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "3-flat replica LFL #99593",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -962,6 +990,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.6901802,
+          41.9708699
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Big Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.7312659,
           42.044426699999995
         ],
@@ -983,6 +1025,20 @@
       },
       "properties": {
         "name": "Big Rainbow Front Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.7055465,
+          42.0900653
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Lemony Snicket quote LF #107969",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -1076,6 +1132,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.7780386,
+          42.007019899999996
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Wildwood Elementary LFL #60872",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.740774,
           41.9835195
         ],
@@ -1111,6 +1181,20 @@
       },
       "properties": {
         "name": "Little red little free library #66435",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6746656,
+          41.963788199999996
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "blue/white \u201cTake OR Leave a book\u201d LFL ",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -1181,6 +1265,20 @@
       },
       "properties": {
         "name": "JMU purple/gold LFL #14869",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6818345,
+          41.971439
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "3 sides windows purple door LFL #24296",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -2156,6 +2254,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.6726285,
+          41.9666212
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Carl Sandburg house Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.69120389999999,
           41.9642652
         ],
@@ -2635,6 +2747,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.68074519999999,
+          41.967895
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Red double-wide LFL w/chimney #29539",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.7319569,
           42.017644499999996
         ],
@@ -2670,6 +2796,20 @@
       },
       "properties": {
         "name": "Yellow Little Free Library #52505",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.7169231,
+          41.962972199999996
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Tabor Lutheran LFL #68126",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -3057,6 +3197,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.78564569999999,
+          42.0665653
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Little Free Library #117858",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.66939939999999,
           42.002003699999996
         ],
@@ -3199,6 +3353,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.6911619,
+          41.9749761
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Blue LFL w/solar panel #76644",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.6673502,
           41.993570899999995
         ],
@@ -3263,6 +3431,20 @@
       "properties": {
         "name": "Nichols School Little Free Library",
         "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.7101593,
+          41.965593299999995
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "\"find our gnomes\" LFL #112482 and pantry",
+        "icon": "grocery-15"
       },
       "type": "Feature"
     },
@@ -3635,6 +3817,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.7157859,
+          41.970147
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Big Boxy LFL w/Chicago skyline",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.7045412,
           41.9648967
         ],
@@ -3826,6 +4022,20 @@
       },
       "properties": {
         "name": "Natural Wood little free library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6829241,
+          41.9651152
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Yellow w/blue roof Little Free Library",
         "icon": "library-15"
       },
       "type": "Feature"
