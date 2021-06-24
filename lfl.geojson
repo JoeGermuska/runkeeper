@@ -1272,6 +1272,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.72650469999999,
+          41.961794999999995
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Lee R Davies memorial LFL #78736",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.6818345,
           41.971439
         ],
@@ -2367,6 +2381,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.72217289999999,
+          41.965528
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "\u201cThe Giving Box\u201d little free pantry",
+        "icon": "grocery-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.7035946,
           42.0301311
         ],
@@ -2388,6 +2416,20 @@
       },
       "properties": {
         "name": "Low-slung \u201clending library\u201d",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.72208069999999,
+          41.9655128
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Solid white door LFL #54210",
         "icon": "library-15"
       },
       "type": "Feature"
