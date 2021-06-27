@@ -284,6 +284,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.7411163,
+          41.9692666
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Blue fancy roof LFL #53508",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.75035179999999,
           42.138278199999995
         ],
@@ -1764,6 +1778,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.7206377,
+          41.9634092
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Purple \u201cRead, Enjoy & Return\u201d LFL #79962",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.7197757,
           42.045469399999995
         ],
@@ -2184,6 +2212,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.7818618,
+          42.165363
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Jens Jensen Park Little Free Library ",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.6936935,
           41.9997536
         ],
@@ -2191,6 +2233,21 @@
       },
       "properties": {
         "name": "Purple stars and bottlecaps LFL",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.78050309999999,
+          42.1644815
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "668 Judson Ave, Highland Park, IL 60035, USA",
+        "name": "Short Little Free Library #105853",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -3189,6 +3246,20 @@
       },
       "properties": {
         "name": "Rotary Int\u2019l Litttle Free Library #73000",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.74072199999999,
+          41.9726821
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Tin roof fluffy clouds LFL #38421",
         "icon": "library-15"
       },
       "type": "Feature"

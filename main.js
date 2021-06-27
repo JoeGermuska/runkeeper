@@ -23,10 +23,45 @@ let styles = {
 let PALETTE = //['#a6cee3', '#1f78b4', '#b2df8a', '#33a02c', '#fb9a99', '#e31a1c', '#fdbf6f', '#ff7f00', '#cab2d6', '#6a3d9a']
     ['#8dd3c7', '#ffffb3', '#bebada', '#fb8072', '#80b1d3', '#fdb462', '#b3de69', '#fccde5', '#d9d9d9', '#bc80bd']
 
+// places to aim for, or to avoid
+let ATTENTION_GETTERS_FC = turf.featureCollection([
+    turf.point([-87.728775, 41.971925], {
+        name: "W Argyle between W Keystone & N Pulaski",
+        marker: "star"
+    }),
+    turf.point([-87.687310, 42.050672], {
+        name: "W Argyle between W Keystone & N Pulaski",
+        marker: "star"
+    }),
+    turf.point([-87.722006, 41.973741], {
+        name: "Near Field Park fieldhouse",
+        marker: "star"
+    }),
+    turf.point([-87.79346, 42.0441005], {
+        name: "Morton Grove near Wayside Woods",
+        marker: "star"
+    }),
+
+    // turf.point([-87.72929, 42.109389], {
+    //     name: "Winnetka near Sheridan Park",
+    //     marker: "red-x"
+    // }),
+
+
+
+])
+
+let ATTENTION_GETTERS_IMG_URLS = {
+    'star': '/star-marker.png',
+    'red-x': '/red-x-marker.png', // red isn't good, and even 16x16 is too big. can we use maki icons?
+
+}
+
 let routes_geojson = null,
     all_features = [],
     all_features_dict = {},
     map = null;
+
 
 mapboxgl.accessToken = 'pk.eyJ1Ijoiam9lZ2VybXVza2EiLCJhIjoiY2thOXNwNHpwMGp2NDJybnplZHE2NWsxZiJ9.R08AIHjCQZKow3hRRao5MA';
 
@@ -154,7 +189,47 @@ function addPolygons() {
             .setLngLat(e.lngLat)
             .setHTML(titleCase(e.features[0].properties['name']))
             .addTo(map);
+        console.log(`map click at ${e.lngLat}`)
     });
+}
+
+function addAttentionGetters() {
+    // add features source and layer
+
+    Object.keys(ATTENTION_GETTERS_IMG_URLS).forEach(id => {
+        let url = ATTENTION_GETTERS_IMG_URLS[id]
+        map.loadImage(url, (error, image) => {
+            if (error) {
+                console.log(`Error loading ${id}: ${error}`)
+            } else {
+                map.addImage(id, image)
+                console.log(`loaded ${id}`)
+            }
+        })
+    })
+
+    map.addSource('attention-getters', {
+        type: 'geojson',
+        data: ATTENTION_GETTERS_FC
+    })
+
+
+    map.addLayer({
+        id: `attention-getters-symbol`,
+        type: 'symbol',
+        source: 'attention-getters',
+        'layout': {
+            'icon-image': ['get', 'marker'],
+            // get the title name from the source's "title" property
+            // 'text-field': ['get', 'text-marker'],
+            // 'text-font': [
+            //     'Open Sans Semibold',
+            //     'Arial Unicode MS Bold'
+            // ],
+            // 'text-offset': [0, 1.25],
+            // 'text-anchor': 'top'
+        }
+    })
 }
 
 function makeOptGroup(name, kids) {
@@ -381,7 +456,6 @@ function initMap() {
                     .setLngLat(e.lngLat)
                     .setHTML(e.features[0].properties.name)
                     .addTo(map);
-                e.cancelBubble() // this prevents other markers from being cleared...
             });
 
             // Change the cursor to a pointer when the mouse is over the routes layer.
@@ -410,6 +484,7 @@ function initMap() {
         Promise.all([routes_promise, polys_promise]).then(_ => {
             addPolygons()
                 // setCircles(1, 10)
+            addAttentionGetters()
             setupFilterMenu()
             checkHash()
         })
