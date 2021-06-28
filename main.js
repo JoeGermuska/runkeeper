@@ -41,6 +41,11 @@ let ATTENTION_GETTERS_FC = turf.featureCollection([
         name: "Morton Grove near Wayside Woods",
         marker: "star"
     }),
+    turf.point([-87.694676, 41.96675], {
+        name: "1/2 block of Leland btwn Talman and Rockwell",
+        marker: "star"
+    }),
+
 
     // turf.point([-87.72929, 42.109389], {
     //     name: "Winnetka near Sheridan Park",

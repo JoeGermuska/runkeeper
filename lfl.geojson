@@ -553,6 +553,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.66373759999999,
+          41.979951799999995
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Trippy colorful Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.6776321,
           42.007810899999996
         ],
@@ -1004,6 +1018,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.6692824,
+          41.9797838
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "First Slice pie cafe LFL",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.6901802,
           41.9708699
         ],
@@ -1025,6 +1053,20 @@
       },
       "properties": {
         "name": "Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6662431,
+          41.9790126
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "\u201cUp and Chaucer\u201d Little Free Library ",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -1476,6 +1518,20 @@
       },
       "properties": {
         "name": "Porthole Little Free Library #103074",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.66490569999999,
+          41.984363099999996
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Oscar the Grouch & Washer LFLs #78215",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -2564,6 +2620,21 @@
     {
       "geometry": {
         "coordinates": [
+          -87.6731578,
+          41.9768459
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "1725 W Farragut Ave, Chicago, IL 60640, USA",
+        "name": "Cute Petite Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.6737644,
           42.0287322
         ],
@@ -3578,6 +3649,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.67111129999999,
+          41.981688399999996
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Mushroom LFL #5403",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.7726967,
           42.0460219
         ],
@@ -3683,6 +3768,20 @@
       },
       "properties": {
         "name": "Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6911927,
+          41.96581
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Iron hook latch Little Free Library ",
         "icon": "library-15"
       },
       "type": "Feature"
