@@ -24,41 +24,25 @@ let PALETTE = //['#a6cee3', '#1f78b4', '#b2df8a', '#33a02c', '#fb9a99', '#e31a1c
     ['#8dd3c7', '#ffffb3', '#bebada', '#fb8072', '#80b1d3', '#fdb462', '#b3de69', '#fccde5', '#d9d9d9', '#bc80bd']
 
 // places to aim for, or to avoid
-let ATTENTION_GETTERS_FC = turf.featureCollection([
-    turf.point([-87.728775, 41.971925], {
-        name: "W Argyle between W Keystone & N Pulaski",
-        marker: "star"
-    }),
-    turf.point([-87.687310, 42.050672], {
-        name: "W Argyle between W Keystone & N Pulaski",
-        marker: "star"
-    }),
-    turf.point([-87.722006, 41.973741], {
-        name: "Near Field Park fieldhouse",
-        marker: "star"
-    }),
-    turf.point([-87.79346, 42.0441005], {
-        name: "Morton Grove near Wayside Woods",
-        marker: "star"
-    }),
-    turf.point([-87.694676, 41.96675], {
-        name: "1/2 block of Leland btwn Talman and Rockwell",
-        marker: "star"
-    }),
+const MARKERS = [
+    ['star', [-87.728775, 41.971925], "W Argyle between W Keystone & N Pulaski"],
+    ['star', [-87.687310, 42.050672], "Evanston alley along Metra"],
+    ['star', [-87.722006, 41.973741], "Near Field Park fieldhouse"],
+    ['star', [-87.79346, 42.0441005], "Morton Grove near Wayside Woods"],
+    ['star', [-87.694676, 41.96675], "1/2 block of Leland btwn Talman and Rockwell"],
+    ['star', [-87.764916, 42.004547], "N. Waukesha btw N. Sauganash & N. Dowagiac"],
+    ['red-x', [-87.72929, 42.109389], "Winnetka near Sheridan Park"],
+]
 
+const ATTENTION_GETTERS_FC = turf.featureCollection(
+    MARKERS.map(
+        args => turf.point(args[1], { name: args[2], marker: args[0] })
+    )
+)
 
-    // turf.point([-87.72929, 42.109389], {
-    //     name: "Winnetka near Sheridan Park",
-    //     marker: "red-x"
-    // }),
-
-
-
-])
-
-let ATTENTION_GETTERS_IMG_URLS = {
-    'star': '/star-marker.png',
-    'red-x': '/red-x-marker.png', // red isn't good, and even 16x16 is too big. can we use maki icons?
+const ATTENTION_GETTERS_IMG_URLS = {
+    'star': './star-marker.png',
+    'red-x': './red-x-marker.png', // red isn't good, and even 16x16 is too big. can we use maki icons?
 
 }
 
