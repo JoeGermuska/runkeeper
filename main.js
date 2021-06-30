@@ -25,9 +25,7 @@ let PALETTE = //['#a6cee3', '#1f78b4', '#b2df8a', '#33a02c', '#fb9a99', '#e31a1c
 
 // places to aim for, or to avoid
 const MARKERS = [
-    ['star', [-87.728775, 41.971925], "W Argyle between W Keystone & N Pulaski"],
     ['star', [-87.687310, 42.050672], "Evanston alley along Metra"],
-    ['star', [-87.722006, 41.973741], "Near Field Park fieldhouse"],
     ['star', [-87.79346, 42.0441005], "Morton Grove near Wayside Woods"],
     ['star', [-87.694676, 41.96675], "1/2 block of Leland btwn Talman and Rockwell"],
     ['star', [-87.764916, 42.004547], "N. Waukesha btw N. Sauganash & N. Dowagiac"],
@@ -174,10 +172,12 @@ function addPolygons() {
 
     // from https://docs.mapbox.com/mapbox-gl-js/example/polygon-popup-on-click/
     map.on('click', `polygons-fill`, function(e) {
-        new mapboxgl.Popup()
-            .setLngLat(e.lngLat)
-            .setHTML(titleCase(e.features[0].properties['name']))
-            .addTo(map);
+        if (!e.originalEvent.defaultPrevented) {
+            new mapboxgl.Popup()
+                .setLngLat(e.lngLat)
+                .setHTML(titleCase(e.features[0].properties['name']))
+                .addTo(map);
+        }
         console.log(`map click at ${e.lngLat}`)
     });
 }
@@ -445,6 +445,8 @@ function initMap() {
                     .setLngLat(e.lngLat)
                     .setHTML(e.features[0].properties.name)
                     .addTo(map);
+                e.originalEvent.stopPropagation()
+                e.originalEvent.preventDefault()
             });
 
             // Change the cursor to a pointer when the mouse is over the routes layer.

@@ -961,6 +961,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.672378,
+          41.9780182
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "The Little Bird Bookhouse",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.6859671,
           42.0097531
         ],
@@ -1925,6 +1939,34 @@
       },
       "properties": {
         "name": "Dogs & Flowering Trees LFL #101995",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.67329869999999,
+          41.9780757
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Side-facing porchside sunset LFL",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.67150629999999,
+          41.985155899999995
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "\u201cBooks around the block\u201d LFL #12983",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -3523,6 +3565,21 @@
     {
       "geometry": {
         "coordinates": [
+          -87.65825989999999,
+          41.9780647
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "1109 W Berwyn Ave, Chicago, IL 60640, USA",
+        "name": "Beat up hand-print maybe LFL?",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.67643149999999,
           41.9686897
         ],
@@ -3993,6 +4050,20 @@
       },
       "properties": {
         "name": "Dr Seuss & Frederick Douglass quotes LFL",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6675839,
+          41.9780668
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Low-sling side-facing purple/blue LFL",
         "icon": "library-15"
       },
       "type": "Feature"
