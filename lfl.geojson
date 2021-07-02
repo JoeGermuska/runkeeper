@@ -3085,6 +3085,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.7554309,
+          41.9789416
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Forest Glen Metra newspaper box LFL",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.72379029999999,
           42.0626691
         ],

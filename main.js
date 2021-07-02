@@ -25,6 +25,7 @@ let PALETTE = //['#a6cee3', '#1f78b4', '#b2df8a', '#33a02c', '#fb9a99', '#e31a1c
 
 // places to aim for, or to avoid
 const MARKERS = [
+    ['star', [-87.75069128840433, 41.976543988127474], 'Single block of Lamon in Forest Glen'],
     ['star', [-87.687310, 42.050672], "Evanston alley along Metra"],
     ['star', [-87.79346, 42.0441005], "Morton Grove near Wayside Woods"],
     ['star', [-87.694676, 41.96675], "1/2 block of Leland btwn Talman and Rockwell"],
@@ -163,7 +164,7 @@ function addPolygons() {
         id: `polygons-line`,
         type: 'line',
         source: 'polygons',
-        paint: { // todo.. change colors? add borders?
+        paint: { // t odo.. change colors? add borders?
             'line-color': '#333',
             'line-opacity': 1,
             'line-width': 1
