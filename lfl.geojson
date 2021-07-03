@@ -171,6 +171,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.7949429,
+          42.0109899
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Bright red/blue/yellow LFL #122795",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.721102,
           42.0800984
         ],
@@ -532,6 +546,20 @@
       },
       "properties": {
         "name": "Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.7601691,
+          41.9964935
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Tall white LFL w/windows & gable",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -1932,6 +1960,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.76110849999999,
+          41.9990813
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Edgebrook School big barn-like LFL",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.6636223,
           42.0159733
         ],
@@ -3204,6 +3246,20 @@
       },
       "properties": {
         "name": "Little Free Library #44911",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.7526736,
+          41.9965857
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Lenox Avenue Free Library",
         "icon": "library-15"
       },
       "type": "Feature"
