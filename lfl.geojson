@@ -2973,6 +2973,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.7965385,
+          42.065229699999996
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Set-back LFL w/bench #44680",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.7133903,
           42.069001899999996
         ],
