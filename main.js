@@ -30,7 +30,6 @@ const MARKERS = [
     ['star', [-87.747073, 41.993296], 'Keating btw Hiawatha & Ionia'],
     ['star', [-87.687310, 42.050672], "Evanston alley along Metra"],
     ['star', [-87.79346, 42.0441005], "Morton Grove near Wayside Woods"],
-    ['star', [-87.694676, 41.96675], "1/2 block of Leland btwn Talman and Rockwell"],
     ['red-x', [-87.72929, 42.109389], "Winnetka near Sheridan Park"],
 ]
 

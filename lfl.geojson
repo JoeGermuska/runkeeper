@@ -143,6 +143,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.6680063,
+          41.9909208
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Families Together space-themed LFL",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.6886956,
           42.078070499999995
         ],
@@ -1095,6 +1109,20 @@
       },
       "properties": {
         "name": "Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.662014,
+          41.9900635
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Chicago Friends School tall LFL",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -2465,6 +2493,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.6711734,
+          41.970128599999995
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "White plastic dog-friendly LFL #125034",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.6726285,
           41.9666212
         ],
@@ -3776,6 +3818,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.6729198,
+          41.986795699999995
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Edgewater Reads ER201704-24 \u267b\ufe0f LFL",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.7010559,
           42.085251
         ],
@@ -3986,6 +4042,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.69599649999999,
+          41.966676299999996
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Grn plastic Little Free Library #124846",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.71138499999999,
           42.077301299999995
         ],
@@ -4147,7 +4217,7 @@
         "type": "Point"
       },
       "properties": {
-        "name": "Low-sling side-facing purple/blue LFL",
+        "name": "Low-slung side-facing purple/blue LFL",
         "icon": "library-15"
       },
       "type": "Feature"
