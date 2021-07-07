@@ -25,9 +25,6 @@ let PALETTE = //['#a6cee3', '#1f78b4', '#b2df8a', '#33a02c', '#fb9a99', '#e31a1c
 
 // places to aim for, or to avoid
 const MARKERS = [
-    ['star', [-87.750691, 41.976544], 'Single block of Lamon in Forest Glen'],
-    ['star', [-87.758339, 41.997721], 'Hiawatha btw Devon & Minnehaha'],
-    ['star', [-87.747073, 41.993296], 'Keating btw Hiawatha & Ionia'],
     ['star', [-87.687310, 42.050672], "Evanston alley along Metra"],
     ['star', [-87.79346, 42.0441005], "Morton Grove near Wayside Woods"],
     ['red-x', [-87.72929, 42.109389], "Winnetka near Sheridan Park"],
