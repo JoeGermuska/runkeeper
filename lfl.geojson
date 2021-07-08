@@ -1454,6 +1454,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.663626,
+          41.9813507
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Animal patterns Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.72063899999999,
           41.963115599999995
         ],
@@ -2086,6 +2100,34 @@
     {
       "geometry": {
         "coordinates": [
+          -87.6636317,
+          41.976692899999996
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Nosan\u2019s Public House LFL w Wilde quotes",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6629655,
+          41.9836528
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "\u201cPeace, love, books\u201d LFL",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.765453,
           42.141322699999996
         ],
@@ -2226,6 +2268,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.6642073,
+          41.9836047
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "\u201cIf you are a dreamer, come in\u201d LFL ",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.6925787,
           41.964411899999995
         ],
@@ -2261,6 +2317,20 @@
       },
       "properties": {
         "name": "Shingled Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6636343,
+          41.9772228
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "\u201cWhen the first baby laughed\u2026\u201d LFL",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -3015,6 +3085,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.6709829,
+          41.983520999999996
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Flowering tree-painted LFL #110557",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.7965385,
           42.065229699999996
         ],
@@ -3591,6 +3675,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.66142959999999,
+          41.983558099999996
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Colorful squares Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.70362539999999,
           42.0558695
         ],
@@ -3951,6 +4049,20 @@
       },
       "properties": {
         "name": "You Are Beautiful variegated LFL #85277",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.66472569999999,
+          41.977807999999996
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Swedish flag \u201cwatertower\u201d LFL #19325",
         "icon": "library-15"
       },
       "type": "Feature"
