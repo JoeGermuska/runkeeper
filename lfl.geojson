@@ -101,6 +101,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.66160529999999,
+          41.988195999999995
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Flowers and butterflies LFL",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.6895294,
           42.0627789
         ],
@@ -122,6 +136,20 @@
       },
       "properties": {
         "name": "Handprints Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.65659819999999,
+          41.987164299999996
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Church of the Atonement bookhouse",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -220,6 +248,20 @@
       },
       "properties": {
         "name": "CCC \u201cCoach House\u201d Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.660699,
+          41.9891253
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Jigsaw puzzle pieces LFL",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -1074,6 +1116,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.6547696,
+          41.9923887
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Sunrise and lake scenes LFL",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.6692824,
           41.9797838
         ],
@@ -1503,6 +1559,20 @@
       },
       "properties": {
         "name": "Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.667603,
+          41.9863965
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Chicago flag roof LFL",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -2086,6 +2156,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.688317,
+          42.008570999999996
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "West Ridge United Methodist Free Pantry",
+        "icon": "grocery-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.6943376,
           41.965765399999995
         ],
@@ -2163,6 +2247,20 @@
       },
       "properties": {
         "name": "Schiller Circle LFL #37959",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6641949,
+          41.9881649
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Sunflowers and tchotchkes LFL",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -2436,6 +2534,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.6633142,
+          41.987627599999996
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Yellow door little free library ",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.6652876,
           41.9927117
         ],
@@ -2528,6 +2640,20 @@
       },
       "properties": {
         "name": "\u201cIt\u2019s a jungle out there \u201c LFL",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.665359,
+          41.9900354
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Blue side-facing ER201600-02 LFL",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -4056,6 +4182,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.6638151,
+          41.9890869
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Save the Honey bees LFL",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.66472569999999,
           41.977807999999996
         ],
@@ -4133,6 +4273,20 @@
       },
       "properties": {
         "name": "Flying Pig LFL #57252",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6623154,
+          41.9872752
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Purple shingled Little Free Library",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -4402,6 +4556,20 @@
       "properties": {
         "address": "3024 W Wilson Ave, Chicago, IL 60625, USA",
         "name": "PEAP Library (its a book!) #40314",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6684677,
+          41.986231
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "\u201cNone are free\u2026\u201d LFL #35351",
         "icon": "library-15"
       },
       "type": "Feature"
