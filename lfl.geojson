@@ -1777,6 +1777,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.7575559,
+          41.9616329
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Our Lady of Victory LFL #52434",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.6909835,
           42.0485993
         ],
@@ -1967,6 +1981,20 @@
       "properties": {
         "address": "2138 W Balmoral Ave, Chicago, IL 60625, USA",
         "name": "Little Free Library #105413",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.76369079999999,
+          41.9676111
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Alderman Gardiner Little Free Library",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -2506,6 +2534,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.7575234,
+          41.9651663
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Ashley & Haley O\u2019Donnell LFL",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.7096201,
           41.962019399999996
         ],
@@ -2569,6 +2611,20 @@
       },
       "properties": {
         "name": "Jens Jensen Park Little Free Library ",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.7666744,
+          41.9654166
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Green Little Free Library #58075",
         "icon": "library-15"
       },
       "type": "Feature"
