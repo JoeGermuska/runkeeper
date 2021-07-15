@@ -1257,6 +1257,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.7069624,
+          41.9563813
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Faux-windows LFL #26828",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.65775359999999,
           41.9760862
         ],
@@ -1735,6 +1749,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.6993744,
+          41.9549952
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Flower box LFL #114499",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.7004855,
           42.0103502
         ],
@@ -1791,6 +1819,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.7045662,
+          41.9583692
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Short plastic barn LFL #123265",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.6909835,
           42.0485993
         ],
@@ -1812,6 +1854,20 @@
       },
       "properties": {
         "name": "Lifeline Theatre Community Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.7009301,
+          41.956997099999995
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Natural wood LFL #42518",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -3547,6 +3603,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.70552579999999,
+          41.9563554
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Tall red w/yellow door LFL",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.6983502,
           42.052191799999996
         ],
@@ -4696,6 +4766,20 @@
       },
       "properties": {
         "name": "French door decorated LFL #57869",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.7007497,
+          41.9580523
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Walnut-stained LFL #15571",
         "icon": "library-15"
       },
       "type": "Feature"
