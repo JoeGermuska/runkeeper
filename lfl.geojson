@@ -2198,6 +2198,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.6865816,
+          41.957757099999995
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Cyan and yellow LFL #27175",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.67150629999999,
           41.985155899999995
         ],
@@ -3400,6 +3414,20 @@
       },
       "properties": {
         "name": "Rustic Little Free Library #56734",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6934283,
+          41.9577087
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Corrugated metal Myler Free Library",
         "icon": "library-15"
       },
       "type": "Feature"
