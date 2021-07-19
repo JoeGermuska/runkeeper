@@ -2745,6 +2745,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.7673161,
+          41.9857739
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Mint green Little Free Library #85574",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.717598,
           42.0632713
         ],
@@ -3427,7 +3441,7 @@
         "type": "Point"
       },
       "properties": {
-        "name": "Corrugated metal Myler Free Library",
+        "name": "Corrugated metal Little Free Library",
         "icon": "library-15"
       },
       "type": "Feature"
