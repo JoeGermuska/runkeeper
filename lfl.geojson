@@ -2114,6 +2114,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.77471899999999,
+          41.986000999999995
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Purple double-door Little Free Library ",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.69136669999999,
           41.9649666
         ],
@@ -4724,6 +4738,20 @@
       "properties": {
         "address": "3024 W Wilson Ave, Chicago, IL 60625, USA",
         "name": "PEAP Library (its a book!) #40314",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.7768846,
+          41.984668899999996
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "N. Mason Ave Neighbors Chicago flag LFL",
         "icon": "library-15"
       },
       "type": "Feature"
