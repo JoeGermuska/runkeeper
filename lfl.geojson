@@ -833,6 +833,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.6922867,
+          41.955892299999995
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Biblio X\u0394",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.7560884,
           42.128487199999995
         ],
@@ -1073,6 +1087,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.6943829,
+          41.9603106
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "\u201cKindness to Others\u201d LFL #99512",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.72187989999999,
           42.0435928
         ],
@@ -1165,6 +1193,20 @@
       },
       "properties": {
         "name": "Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.67516479999999,
+          41.9559741
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "\u201cHey Hey\u201d Cubs LFL #70982",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -2338,6 +2380,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.68002829999999,
+          41.9605986
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Lara\u2019s Little Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.73535729999999,
           42.0304748
         ],
@@ -2401,6 +2457,20 @@
       },
       "properties": {
         "name": "LFL #22297 (w/overflow boxes)",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.68961689999999,
+          41.9596033
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "\u201cTake a Book\u201d missing door LFL",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -4378,6 +4448,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.6943651,
+          41.960318099999995
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "The Great Book Tree Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.66472569999999,
           41.977807999999996
         ],
@@ -4399,6 +4483,20 @@
       },
       "properties": {
         "name": "\u201cEmbrace our diversity\u201d LFL",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6900601,
+          41.958521999999995
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Blue replica Little Free Library #58317",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -4680,6 +4778,20 @@
       },
       "properties": {
         "name": "Low-slung side-facing purple/blue LFL",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.69201819999999,
+          41.9586429
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Little Free Library #28378",
         "icon": "library-15"
       },
       "type": "Feature"
