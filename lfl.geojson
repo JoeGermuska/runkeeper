@@ -1706,6 +1706,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.64667469999999,
+          41.9584492
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Overstuffed LFL #29444 / #31469 (1 box)",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.6631262,
           41.9926895
         ],
@@ -2310,6 +2324,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.7081657,
+          42.0439364
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Empty doorless Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.688317,
           42.008570999999996
         ],
@@ -2583,6 +2611,20 @@
       },
       "properties": {
         "name": "\u201cBookswap\u201d Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.71894119999999,
+          41.9574821
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Grace Evangelical Little Free Library ",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -3152,6 +3194,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.6547599,
+          41.9725116
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Buttercup Park Little Free Library ",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.7430562,
           41.9831016
         ],
@@ -3568,6 +3624,20 @@
       },
       "properties": {
         "name": "Tabor Lutheran LFL #68126",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6945595,
+          42.0441212
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "\u201cIn honor of Dennis Drummer\u201d LFL #124375",
         "icon": "library-15"
       },
       "type": "Feature"
