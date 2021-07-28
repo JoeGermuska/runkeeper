@@ -1650,6 +1650,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.7634346,
+          42.1012335
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Plastic barn LFL #109375",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.6970144,
           42.0275951
         ],
