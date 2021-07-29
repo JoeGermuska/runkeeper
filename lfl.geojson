@@ -4052,6 +4052,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.7728485,
+          41.9784279
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Sliding door LFL #88998",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.6989869,
           42.054460999999996
         ],
