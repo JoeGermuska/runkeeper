@@ -129,6 +129,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.6788053,
+          41.9496371
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Epiphany United Church of Christ LFL",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.6667202,
           41.9944059
         ],
@@ -390,6 +404,20 @@
       "properties": {
         "address": "1555 Florence Ave, Evanston, IL 60201, USA",
         "name": "Ranch-style Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6761143,
+          41.9488085
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Red roof yellow LFL ER201611-05",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -840,6 +868,21 @@
       },
       "properties": {
         "name": "Biblio X\u0394",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.67757259999999,
+          41.9505188
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "1945-1921 W Grace St, Chicago, IL 60613, USA",
+        "name": "Loose-leaf notebook paper LFL",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -2828,6 +2871,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.67677549999999,
+          41.9524158
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "The Cutler Family LFL #63111",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.7666744,
           41.9654166
         ],
@@ -2962,6 +3019,20 @@
       },
       "properties": {
         "name": "Birchwood Little Libr. \u201cFree Dog Treats\u201d",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6772828,
+          41.948808199999995
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Double-door white LFL #76245",
         "icon": "library-15"
       },
       "type": "Feature"

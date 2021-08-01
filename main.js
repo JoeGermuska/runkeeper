@@ -26,7 +26,6 @@ let PALETTE = //['#a6cee3', '#1f78b4', '#b2df8a', '#33a02c', '#fb9a99', '#e31a1c
 // places to aim for, or to avoid
 const MARKERS = [
     ['star', [-87.687310, 42.050672], "Evanston alley along Metra"],
-    ['star', [-87.686735, 41.959469], "W. Cullom btwn Western & Lincoln"],
     ['red-x', [-87.72929, 42.109389], "Winnetka near Sheridan Park"],
 ]
 
