@@ -1130,6 +1130,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.72529929999999,
+          41.9544524
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "\u201cBook House\u201d LFL #30059 (lotsa scripts)",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.6943829,
           41.9603106
         ],
@@ -2605,6 +2619,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.72273179999999,
+          41.9586172
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Biblioteca de Barrio LFL #64388",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.71278009999999,
           41.9878067
         ],
@@ -2963,6 +2991,20 @@
       },
       "properties": {
         "name": "Northminster Nursery School LFL (empty!)",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.72455099999999,
+          41.955467999999996
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Constellation Little Free Library",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -5117,6 +5159,20 @@
       },
       "properties": {
         "name": "French door decorated LFL #57869",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.7269144,
+          41.9555179
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Christian Little Library",
         "icon": "library-15"
       },
       "type": "Feature"
