@@ -27,7 +27,6 @@ let PALETTE = //['#a6cee3', '#1f78b4', '#b2df8a', '#33a02c', '#fb9a99', '#e31a1c
 const MARKERS = [
     ['star', [-87.687310, 42.050672], "Evanston alley along Metra"],
     ['star', [-87.710635, 41.95878], "N. Spaulding btwn Hutchinson & Pensacola"],
-    ['star', [-87.767246, 42.096125], "Colonial Lane in Northfield"],
     ['red-x', [-87.72929, 42.109389], "Winnetka near Sheridan Park"],
     ['red-x', [-87.769128, 42.094535], "Ghost trail in Northfield"],
     ['red-x', [-87.768941, 42.093617], "Ghost trail in Northfield"],

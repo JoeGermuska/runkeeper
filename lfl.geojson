@@ -2325,6 +2325,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.7676293,
+          42.0965986
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Colonial Lane Little Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.67329869999999,
           41.9780757
         ],
@@ -3709,6 +3723,20 @@
       },
       "properties": {
         "name": "Corrugated metal Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.7738912,
+          42.097037
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "\"The Detlefsens\" Giant red LFL #28198",
         "icon": "library-15"
       },
       "type": "Feature"
