@@ -73,6 +73,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.7217354,
+          41.9579029
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Book Box LFL",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.7320196,
           42.0158547
         ],
@@ -897,6 +911,20 @@
       },
       "properties": {
         "name": "\u201cTake a Book * Return a Book\u201d LFL #9914",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.717928,
+          41.960190399999995
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Giant Little Free Lirary",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -1784,6 +1812,21 @@
       },
       "properties": {
         "name": "Overstuffed LFL #29444 / #31469 (1 box)",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6580979,
+          41.9924507
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "1066 W Glenlake Ave, Chicago, IL 60660, USA",
+        "name": "Spacy-trippy Little Free Library",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -3153,6 +3196,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.7154352,
+          41.954884299999996
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Little Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.7879182,
           42.1699048
         ],
@@ -4074,6 +4131,20 @@
       },
       "properties": {
         "name": "Free books * Libros gratis LFL #45772",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.75758139999999,
+          41.974369599999996
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Red newspaper box LFL #61271",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -5089,6 +5160,20 @@
       "properties": {
         "address": "3024 W Wilson Ave, Chicago, IL 60625, USA",
         "name": "PEAP Library (its a book!) #40314",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.71772109999999,
+          41.955061799999996
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Little Free Library #23992",
         "icon": "library-15"
       },
       "type": "Feature"
