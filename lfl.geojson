@@ -2073,6 +2073,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.7438679,
+          41.965008
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Mosaics Little Free Library #108724",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.687325,
           41.9776887
         ],
@@ -3519,6 +3533,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.7369891,
+          41.9622211
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Springfield Dominican LFL #54265",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.6885112,
           42.0316682
         ],
@@ -4842,6 +4870,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.7400045,
+          41.9634272
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "@booksonkenneth LFL #116451",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.6900337,
           42.0379398
         ],
@@ -5088,6 +5130,20 @@
       },
       "properties": {
         "name": "Low-slung side-facing purple/blue LFL",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.7412394,
+          41.9639777
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "John L McKay memorial LFL #62603",
         "icon": "library-15"
       },
       "type": "Feature"
