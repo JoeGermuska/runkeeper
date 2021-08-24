@@ -4152,6 +4152,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.7341476,
+          41.956955199999996
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Bees and things and flowers LFL #88293",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.7299996,
           41.9624422
         ],
