@@ -25,4 +25,6 @@ python ./process_gpx.py
 
 git add lfl.geojson paths.geojson
 
+jq < lfl.geojson '.features[].properties.icon' | sort | uniq -c
+
 http-server -p 1234 -o /

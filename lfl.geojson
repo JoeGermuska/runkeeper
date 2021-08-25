@@ -509,6 +509,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.6571675,
+          41.9662171
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Winthrop Community Garden LFL",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.71632939999999,
           42.070692099999995
         ],
@@ -925,6 +939,20 @@
       },
       "properties": {
         "name": "Giant Little Free Lirary",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6534363,
+          41.973313999999995
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Take a Puzzle, Leave a Puzzle",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -3153,6 +3181,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.6576493,
+          41.972120499999996
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "\u201cSeeds of today\u201d Chinese proverb LFL",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.6711734,
           41.970128599999995
         ],
@@ -4695,6 +4737,20 @@
       },
       "properties": {
         "name": "Mushroom LFL #5403",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6532143,
+          41.9734538
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "The Selfhelp Home Free Little Library",
         "icon": "library-15"
       },
       "type": "Feature"
