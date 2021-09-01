@@ -5556,6 +5556,20 @@
         "icon": "library-15"
       },
       "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.7769644,
+          41.9695223
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Green leaves and natural wood LFL",
+        "icon": "library-15"
+      },
+      "type": "Feature"
     }
   ],
   "type": "FeatureCollection"
