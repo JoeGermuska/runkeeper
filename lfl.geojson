@@ -2480,20 +2480,6 @@
     {
       "geometry": {
         "coordinates": [
-          -87.7055439,
-          42.0586725
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "name": "Little Free Library",
-        "icon": "library-15"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           -87.7081657,
           42.0439364
         ],
@@ -2809,6 +2795,20 @@
       },
       "properties": {
         "name": "Grace Evangelical Little Free Library ",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.70563469999999,
+          42.0584947
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "\"Take a Book Leave a Book\" LFL",
         "icon": "library-15"
       },
       "type": "Feature"
