@@ -651,6 +651,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.71078589999999,
+          42.0655998
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Box of Stories",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.7272684,
           42.08594
         ],
@@ -840,6 +854,20 @@
       },
       "properties": {
         "name": "Little Free Library #46870",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6662036,
+          41.8122774
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Plant Chicago LFL #111877",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -1419,6 +1447,20 @@
       },
       "properties": {
         "name": "Faux-windows LFL #26828",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.7030722,
+          41.9938754
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Little Little Free Library #121423",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -3885,6 +3927,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.6609307,
+          41.8105261
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Love Fridge free pantry @ the Plant",
+        "icon": "grocery-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.73448289999999,
           41.9733768
         ],
@@ -4362,6 +4418,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.6964471,
+          42.0600142
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Kingsley School LFL #64055",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.6989869,
           42.054460999999996
         ],
@@ -4468,21 +4538,6 @@
       },
       "properties": {
         "name": "Edible Evanston Nature's Little Library",
-        "icon": "library-15"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -87.70744739999999,
-          42.0496799
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "1740 Leland Ave, Evanston, IL 60201, USA",
-        "name": "\"Free books\" plastic tub",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -5300,6 +5355,20 @@
       },
       "properties": {
         "name": "Little Free Library #23992",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.70724609999999,
+          42.0496967
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Little Free Library #127351",
         "icon": "library-15"
       },
       "type": "Feature"
