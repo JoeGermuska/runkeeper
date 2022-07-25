@@ -1861,6 +1861,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.7377052,
+          42.026801299999995
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Pink Little Free Library #125214",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.6843159,
           42.0307781
         ],
@@ -2361,6 +2375,20 @@
       },
       "properties": {
         "name": "Double LFL #38021",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.72840529999999,
+          42.101002099999995
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Little Free Library #113612",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -4531,6 +4559,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.717418,
+          42.0897608
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Sears School Little Free Library #123403",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.66142959999999,
           41.983558099999996
         ],
@@ -4946,6 +4988,21 @@
       },
       "properties": {
         "name": "Swedish flag \u201cwatertower\u201d LFL #19325",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.7464802,
+          41.9856177
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "5766 N Kingsdale Ave, Chicago, IL 60646, USA",
+        "name": "Mary Busenbark Kindness Library #143551",
         "icon": "library-15"
       },
       "type": "Feature"
