@@ -78,7 +78,7 @@ def fixup_markers(fn):
     import re
     ICONS = [ # https://labs.mapbox.com/maki-icons/
         (re.compile('^.*gallery.*$',re.IGNORECASE), 'art-gallery-15'),
-        (re.compile('^.*pantry.*$',re.IGNORECASE), 'grocery-15'),
+        (re.compile('^.*(pantry|fridge).*$',re.IGNORECASE), 'grocery-15'),
         (re.compile('^.*dog biscuits.*$',re.IGNORECASE), 'dog-park-15'), # or maybe veterinary-15
     ]
 
@@ -103,6 +103,9 @@ def fixup_markers(fn):
             for pat,icon in ICONS:
                 if pat.match(place['properties']['name']):
                     place['properties']['icon'] = icon
+                if "ofEvanston" in place['properties']['name']:
+                    # cope with Google Maps label length limitation
+                    place['properties']['name'] = place['properties']['name'].replace('ofEvanston', 'of Evanston')
     for place in to_remove:
         j['features'].remove(place)
     json.dump(j,open(fn,'w'),indent=2)

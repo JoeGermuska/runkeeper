@@ -1171,6 +1171,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.7102575,
+          42.0792916
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Fire station No. 26 Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.68338589999999,
           41.9615805
         ],
@@ -2508,6 +2522,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.79835899999999,
+          42.0288946
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "\u201cToday a reader, tomorrow a leader\u201d LFL",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.6865816,
           41.957757099999995
         ],
@@ -3090,6 +3118,20 @@
       "properties": {
         "name": "The Cutler Family LFL #63111",
         "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6989644,
+          42.042567999999996
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Childcare Network of Evanston Free Fridge",
+        "icon": "grocery-15"
       },
       "type": "Feature"
     },
@@ -4834,6 +4876,20 @@
       },
       "properties": {
         "name": "\u201cCurioser and curiouser!\u201d Alice LFL",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6990502,
+          42.037639
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Little Free Library #59414",
         "icon": "library-15"
       },
       "type": "Feature"
