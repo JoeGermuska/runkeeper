@@ -707,6 +707,21 @@
     {
       "geometry": {
         "coordinates": [
+          -122.1579541,
+          37.4423685
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "834 Ramona St, Palo Alto, CA 94301, United States",
+        "name": "Twin-painted little free library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.66373759999999,
           41.979951799999995
         ],
@@ -1989,6 +2004,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.66770629999999,
+          41.9959956
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Little Free Library ",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.7792929,
           42.0380919
         ],
@@ -2066,6 +2095,20 @@
       },
       "properties": {
         "name": "Capt. Humayun Khan Little Free Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -64.7947485,
+          18.3312596
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Big Blue Little Free Library #84135",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -3715,6 +3758,21 @@
     {
       "geometry": {
         "coordinates": [
+          -87.697763,
+          41.895387899999996
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "2825 W Chicago Ave, Chicago, IL 60622, USA",
+        "name": "Love Fridge",
+        "icon": "grocery-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.6885112,
           42.0316682
         ],
@@ -4193,6 +4251,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.7363051,
+          42.0788201
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Wilmette Fire Station #2 LFL",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.6915035,
           42.0539056
         ],
@@ -4573,6 +4645,21 @@
     {
       "geometry": {
         "coordinates": [
+          -122.1645932,
+          37.446035599999995
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "307 Emerson St, Palo Alto, CA 94301, United States",
+        "name": "Tall Little Free Library #31322",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.78564569999999,
           42.0665653
         ],
@@ -4636,6 +4723,20 @@
       },
       "properties": {
         "name": "Edible Evanston Nature's Little Library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.1613464,
+          37.4495193
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "BLM Rest, Eat an Orange, Read a book LFL",
         "icon": "library-15"
       },
       "type": "Feature"

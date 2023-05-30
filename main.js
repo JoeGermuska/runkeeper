@@ -409,7 +409,7 @@ function initMap() {
                 f.properties['date'] = new Date(f.properties.time_str)
             })
 
-            map.fitBounds(turf.bbox(routes_geojson), FIT_BOUNDS_OPTIONS)
+            // map.fitBounds(turf.bbox(routes_geojson), FIT_BOUNDS_OPTIONS)
 
             map.addSource('routes', {
                 type: 'geojson',
