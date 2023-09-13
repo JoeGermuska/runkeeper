@@ -3,6 +3,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.65818139999999,
+          42.0076661
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Loyola Park Advisory Council Toy library",
+        "icon": "playground-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.6989285,
           42.014719299999996
         ],
@@ -1525,6 +1539,20 @@
     {
       "geometry": {
         "coordinates": [
+          -87.7192496,
+          42.047998
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Walker School LFL #149012",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.6861438,
           42.012991299999996
         ],
@@ -2389,7 +2417,7 @@
         "type": "Point"
       },
       "properties": {
-        "name": "Ref-green-blue w/bunny handle LFL",
+        "name": "Red-green-blue w/bunny handle LFL",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -2586,6 +2614,20 @@
       },
       "properties": {
         "name": "Cyan and yellow LFL #27175",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.71002879999999,
+          42.0790704
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Wilmette Fire Station #26 LFL",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -3077,6 +3119,20 @@
       "properties": {
         "name": "Ashley & Haley O\u2019Donnell LFL",
         "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.65960199999999,
+          42.009707999999996
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Loyola Park Advisory Council Toy library",
+        "icon": "playground-15"
       },
       "type": "Feature"
     },
@@ -4061,7 +4117,7 @@
         "type": "Point"
       },
       "properties": {
-        "name": "Little Free Library",
+        "name": "Little Free Library #40788",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -4147,6 +4203,20 @@
       "properties": {
         "name": "\u201cDog Biscuits Take a Treat\u201d mailbox",
         "icon": "dog-park-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6579762,
+          42.0063311
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Loyola Park Advisory Council Toy library",
+        "icon": "playground-15"
       },
       "type": "Feature"
     },
@@ -4257,7 +4327,7 @@
         "type": "Point"
       },
       "properties": {
-        "name": "Wilmette Fire Station #2 LFL",
+        "name": "Wilmette Fire Station #27 LFL",
         "icon": "library-15"
       },
       "type": "Feature"

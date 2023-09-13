@@ -14,6 +14,7 @@ NAME_FIXES = {
     # user errors: forgot to switch before starting
     'Cycling 5/26/20 8:28 am': lambda name: name.replace('Cycling', 'Walking'),
     'Walking 7/19/20 10:49 am': lambda name: name.replace('Walking', 'Cycling'),
+    'Cycling 8/16/23 1:08 pm': lambda name: name.replace('Cycling', 'Walking')
 }
 
 def parse_gpx(p):
@@ -77,9 +78,10 @@ def fixup_markers(fn):
 
     import re
     ICONS = [ # https://labs.mapbox.com/maki-icons/
-        (re.compile('^.*gallery.*$',re.IGNORECASE), 'art-gallery-15'),
-        (re.compile('^.*(pantry|fridge).*$',re.IGNORECASE), 'grocery-15'),
-        (re.compile('^.*dog biscuits.*$',re.IGNORECASE), 'dog-park-15'), # or maybe veterinary-15
+        (re.compile(r'^.*gallery.*$',re.IGNORECASE), 'art-gallery-15'),
+        (re.compile(r'^.*(pantry|fridge).*$',re.IGNORECASE), 'grocery-15'),
+        (re.compile(r'^.*dog biscuits.*$',re.IGNORECASE), 'dog-park-15'), # or maybe veterinary-15
+        (re.compile(r'^.*\btoy\b.*', re.IGNORECASE), 'playground-15')
     ]
 
     DROP = [ # old stuff that is in saved places but shouldn't be on the map
