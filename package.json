@@ -25,7 +25,7 @@
     },
     "devDependencies": {
         "@turf/turf": "^5.1.6",
-        "node-fetch": "^2.6.1",
+        "node-fetch": "^2.6.7",
         "welshpowell": "^1.0.1"
     }
 }
