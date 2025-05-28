@@ -721,6 +721,21 @@
     {
       "geometry": {
         "coordinates": [
+          0.0,
+          0.0
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "Chicago, IL 60634, United States",
+        "name": "Blyth Law LFL #118833",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -122.1579541,
           37.4423685
         ],
@@ -1518,6 +1533,20 @@
       },
       "properties": {
         "name": "Harold and the Purple Crayon LFL #98066",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.9940553,
+          42.0957438
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "My Rehab Little Free Library",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -2390,6 +2419,20 @@
       "properties": {
         "address": "2138 W Balmoral Ave, Chicago, IL 60625, USA",
         "name": "Little Free Library #105413",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.7181797,
+          42.0470484
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Walker School LFL #149013",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -3575,6 +3618,21 @@
     {
       "geometry": {
         "coordinates": [
+          -87.7410932,
+          41.9518799
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "4500 W Byron St, Chicago, IL 60641, United States",
+        "name": "ROIP little free library",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -87.7035946,
           42.0301311
         ],
@@ -3850,6 +3908,20 @@
       },
       "properties": {
         "name": "Little Free Library #26341",
+        "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -89.3898115,
+          43.0748202
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Short Stack Eats LFL #135615",
         "icon": "library-15"
       },
       "type": "Feature"
@@ -5907,6 +5979,20 @@
       "properties": {
         "name": "Natural Wood little free library",
         "icon": "library-15"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.6945679,
+          42.0570965
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Little Free Pantry outside Soul & Smoke",
+        "icon": "grocery-15"
       },
       "type": "Feature"
     },
